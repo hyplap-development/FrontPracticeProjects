@@ -3,6 +3,7 @@
 }
 
 .heading {
+    
     font-size: 18px;
     font-weight: 200;
 }
@@ -10,3 +11,27 @@
 .detail {
     font-size: 14px;
 }
+/* rohit table part */
+.ptagedited{
+    display: inline;
+}
+.tableditz{
+    /* display: flex; */
+    float: right;
+}
+.headimg{
+    position: relative;
+    top: 0;
+    left: 120px;
+}
+.headinghr{
+   width: 85%;
+   border: 1px solid black;
+}
+/* @media (min-wdith:450px){
+    .tableditz{
+        
+        float: right;
+    }
+} */
+/* -------------------->>>>>>>>>>>>>> */
