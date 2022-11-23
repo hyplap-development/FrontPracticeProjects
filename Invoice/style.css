@@ -17,7 +17,8 @@
 }
 .tableditz{
     /* display: flex; */
-    float: right;
+    float:right ;
+    padding-right: 10%;
 }
 .headimg{
     position: relative;
@@ -28,10 +29,13 @@
    width: 85%;
    border: 1px solid black;
 }
-/* @media (min-wdith:450px){
-    .tableditz{
-        
-        float: right;
-    }
-} */
+.footerimg{
+    width: 50%;
+    display: inline;
+}
+.signaturediv{
+    /* border: 2px solid black; */
+    float: right;
+    text-align: center;
+}
 /* -------------------->>>>>>>>>>>>>> */
