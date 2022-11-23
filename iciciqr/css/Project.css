@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins';
+  font-size: 20px;
+}
+
+/* .section_heading{
+  font-style: 'Poppins';
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.section_content{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+} */
+
+.navbar {
+  background: linear-gradient(6deg, rgba(253, 58, 29, 1) 50%, rgba(252, 213, 69, 1) 100%);
+  /* position: ; */
+}
+
+.navbar img {
+  width: 5rem;
+}
+
+.eazypaylogo {
+  width: 100px;
+  border-bottom-left-radius: 10px;
+}
+
+/* qr code */
+.qrcode {
+  background: rgb(253, 58, 29);
+  background: linear-gradient(6deg, rgba(253, 58, 29, 1) 50%, rgba(252, 213, 69, 1) 100%);
+  padding: 20px;
+}
+
+/* .animate__fadeInTopRight {
+  --animate-duration: 2s;
+} */
+
+/* .animate__fadeInTopRight{
+  --animate-duration: 5s;
+  --animate-delay: 0.9s;
+} */
+
+.qrtext {
+  text-align: center !important;
+  font-weight: bold;
+  font-size: larger;
+  color: #5f0d0d;
+}
+
+.slidertext,
+.cheading,
+u {
+  color: #105e9e;
+  font-weight: bold;
+}
+
+.qr img {
+  padding: 20px;
+  box-shadow: 0 8px 7px black;
+  border: 2px solid #ffffff;
+}
+
+.btn1,
+.btn2,
+#readmore {
+  border: none;
+  color: #ffffff;
+  background-color: #105e9e;
+  border-radius: 15px;
+  font-size: medium;
+  padding: 10px;
+  /* margin: 0px 20px; */
+}
+
+.btn-group {
+  width: 50%;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  display: block;
+  position: relative;
+}
+
+.btn1:hover,
+.btn2:hover {
+  background-color: #ffffff;
+  color: #000;
+  cursor: pointer;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25vw;
+}
+
+.edge {
+  width: 75%;
+  height: 30px;
+  background-color: #a52a2a;
+  position: absolute;
+  clip-path: polygon(0% 0%, 100% 0, 100% 0, 97% 100%, 0% 100%);
+}
+
+/* About us */
+.about_us {
+  background-color: #f9f8f8;
+}
+
+.Merchant {
+  color: #105e9e;
+  font-weight: bold;
+}
+
+.img {
+  object-fit: contain;
+  align-content: center;
+}
+
+.text {
+  overflow: hidden;
+  overflow-y: auto;
+  width: 100%;
+  height: 90px;
+  text-align: justify;
+}
+
+.moreText {
+  display: none;
+}
+
+.text.show-more .moreText {
+  display: contents;
+}
+
+
+/* Our Partners */
+.Our_Partners {
+  background-color: #ffffff;
+}
+
+.multiple-logo {
+  display: inline;
+  width: 90%;
+}
+
+.slick-slide {
+  margin: 10px;
+}
+
+.slider-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide img{
+  width: 70%;
+}
+
+/* Contact Us */
+.Contactuss {
+  background-color: #f9f8f8;
+}
+
+/* Table */
+.tabletitlebg {
+  background-color: #105e9e;
+  color: #ffffff;
+  width: 100%;
+  height: 35px;
+  font-size: 15px;
+}
+
+th {
+  text-align: center;
+  background-color: #105e9e;
+}
+
+/* td {
+  text-align: center;
+} */
+
+table,
+th,
+td,
+tr {
+  border: 1px solid black;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  height: 35px;
+  background-color: #105e9e;
+}
+
+.textf,
+a {
+  color: #000;
+  font-size: 15px;
+}
+/* floatbutton icon to top */
+.to-top{
+  background-color: #ed5e2e;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* font-size: 32px !important; */
+  position: fixed;
+  right: 32px;
+  /* bottom: 50px; */
+  color: #ffffff !important;
+  /* text-decoration: none !important; */
+  transition: all;
+  /* pointer-events: none; */
+  /* opacity: 100%; */
+}
+.to-top.active{
+  bottom:32px;
+  pointer-events: auto;
+  /* opacity: 1; */
+}
+.active{
+  
+  text-decoration-line: underline;
+  padding-bottom: 10px;
+  
+}
