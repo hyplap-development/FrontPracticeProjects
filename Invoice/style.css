@@ -1,5 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
 .heading {
@@ -23,7 +24,7 @@
 .headimg{
     position: relative;
     top: 0;
-    left: 120px;
+    left: 0;
 }
 .headinghr{
    width: 85%;
@@ -37,5 +38,6 @@
     /* border: 2px solid black; */
     float: right;
     text-align: center;
+    padding-right: 10%;
 }
 /* -------------------->>>>>>>>>>>>>> */
