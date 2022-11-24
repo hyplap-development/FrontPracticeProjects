@@ -1,12 +1,14 @@
 .bill_details{  
     text-align: justify; 
 } 
- 
+.bill_info{
+    text-align: left;
+} 
 .blank-space 
 { 
     width: 80px; 
 } 
- 
+
 .table-heads 
 { 
     float: left; 
