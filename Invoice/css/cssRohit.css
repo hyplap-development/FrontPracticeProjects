@@ -1,20 +1,20 @@
-.ptagedited {
+.p-tagedited {
     display: inline;
 }
 
-.tableditz {
+.table-edits {
     /* display: flex; */
     float: right;
     padding-right: 10%;
 }
 
-.headimg {
+.head-img {
     position: relative;
-    top: 0;
-    left: 0;
+    /* top: 0;
+    left: 0; */
 }
 
-.headinghr {
+.heading-hr {
     width: 85%;
     border: 1px solid black;
 }
