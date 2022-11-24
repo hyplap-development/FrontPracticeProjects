@@ -6,10 +6,29 @@
 
     font-size: 18px;
     font-weight: 200;
-}
-
-.detail {
-    font-size: 14px;
+}  
+  
+.detail {  
+    font-size: 14px;  
+}  
+  
+.bill_details{  
+    text-align: justify; 
+} 
+ 
+.blank-space 
+{ 
+    width: 80px; 
+} 
+ 
+.table-heads 
+{ 
+    float: left; 
+} 
+.icon 
+{ 
+    padding: 0; 
+    vertical-align: baseline; 
 }
 
 /* rohit table part */
@@ -19,7 +38,8 @@
 
 .tableditz {
     /* display: flex; */
-    float: right;
+    float:right ;
+    padding-right: 10%;
 }
 
 .headimg {
@@ -32,11 +52,13 @@
     width: 85%;
     border: 1px solid black;
 }
-
-/* @media (min-wdith:450px){
-    .tableditz{
-        
-        float: right;
-    }
-} */
+.footerimg{
+    width: 50%;
+    display: inline;
+}
+.signaturediv{
+    /* border: 2px solid black; */
+    float: right;
+    text-align: center;
+}
 /* -------------------->>>>>>>>>>>>>> */
