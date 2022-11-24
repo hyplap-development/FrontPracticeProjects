@@ -1,0 +1,28 @@
+.ptagedited {
+    display: inline;
+}
+
+.tableditz {
+    /* display: flex; */
+    float:right ;
+    padding-right: 10%;
+}
+
+.headimg {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.headinghr {
+    width: 85%;
+    border: 1px solid black;
+}
+
+.signaturediv{
+    /* border: 2px solid black; */
+    float: right;
+    text-align: center;
+    padding-right: 10%;
+}
+/* -------------------->>>>>>>>>>>>>> */
