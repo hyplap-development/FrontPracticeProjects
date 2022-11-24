@@ -4,13 +4,31 @@
 }
 
 .heading {
-    
     font-size: 18px;
     font-weight: 200;
-}
-
-.detail {
-    font-size: 14px;
+}  
+  
+.detail {  
+    font-size: 14px;  
+}  
+  
+.bill_details{  
+    text-align: justify; 
+} 
+ 
+.blank-space 
+{ 
+    width: 80px; 
+} 
+ 
+.table-heads 
+{ 
+    float: left; 
+} 
+.icon 
+{ 
+    padding: 0; 
+    vertical-align: baseline; 
 }
 /* rohit table part */
 .ptagedited{
