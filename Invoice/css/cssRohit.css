@@ -4,7 +4,7 @@
 
 .tableditz {
     /* display: flex; */
-    float:right ;
+    float: right;
     padding-right: 10%;
 }
 
@@ -19,10 +19,11 @@
     border: 1px solid black;
 }
 
-.signaturediv{
+.signaturediv {
     /* border: 2px solid black; */
     float: right;
     text-align: center;
     padding-right: 10%;
 }
+
 /* -------------------->>>>>>>>>>>>>> */

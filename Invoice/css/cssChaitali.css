@@ -1,18 +1,16 @@
-.bill_details{  
-    text-align: justify; 
-} 
- 
-.blank-space 
-{ 
-    width: 80px; 
-} 
- 
-.table-heads 
-{ 
-    float: left; 
-} 
-.icon 
-{ 
-    padding: 0; 
-    vertical-align: baseline; 
+.bill_details {
+    text-align: justify;
+}
+
+.blank-space {
+    width: 80px;
+}
+
+.table-heads {
+    float: left;
+}
+
+.icon {
+    padding: 0;
+    vertical-align: baseline;
 }
