@@ -1,20 +1,36 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.heading {
-    font-size: 18px;
+* {  
+    font-family: Arial, Helvetica, sans-serif;  
+}  
+.contact
+{ 
+ 
+    max-width: 700px; 
+} 
+  
+.heading {  
+    font-size: 18px;  
     font-weight: 200;
+}  
+  
+.detail {  
+    font-size: 14px;  
+}  
+  
+.bill_details{  
+    text-align: justify; 
+} 
+ 
+.blank-space 
+{ 
+    width: 80px; 
+} 
+ 
+.table-heads 
+{ 
+    float: left; 
+} 
+.icon 
+{ 
+    padding: 0; 
+    vertical-align: baseline; 
 }
-
-.detail {
-    font-size: 14px;
-}
-
-.blank_space{
-    width: 50px;
-}
-/* .bill_details{
-    text-align: justify;
-    padding: 5px;
-} */
