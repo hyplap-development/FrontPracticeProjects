@@ -20,7 +20,7 @@ $(document).ready(function(){
       slidesToShow: 4,
       slidesToScroll: 1,
       arrows : true,
-      dots : false,
+      dots : true,
       prevArrow: '.arrow_prev', 
       nextArrow: '.arrow_next', 
 
