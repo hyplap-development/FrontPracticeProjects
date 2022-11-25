@@ -3,6 +3,20 @@
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
+.page {
+    background: var(--white);
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: var(--pageShadow);
+}
+
+.page[size="A4"] {
+    width: 793.7px;
+    height: 1122.52px;
+    overflow: hidden;
+}
+
 .heading {
     font-size: 18px;
     font-weight: 200;
