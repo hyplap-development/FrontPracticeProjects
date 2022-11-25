@@ -74,7 +74,9 @@ u {
   background-color: #105e9e;
   border-radius: 15px;
   font-size: medium;
+  justify-content: center;
   padding: 10px;
+  margin: 10px 20px;
 }
 
 .btn-group {
