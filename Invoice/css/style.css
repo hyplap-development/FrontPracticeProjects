@@ -11,7 +11,18 @@
 .detail {  
     font-size: 14px;  
 }  
-  
+
+.table-recipient{
+    position: absolute;
+   top: 0;
+   right: 0;
+
+}
+.hr-tag{
+   
+    background-color: black;
+}
+
 
 
 
