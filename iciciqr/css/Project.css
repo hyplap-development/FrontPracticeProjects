@@ -74,7 +74,9 @@ u {
   background-color: #105e9e;
   border-radius: 15px;
   font-size: medium;
+  justify-content: center;
   padding: 10px;
+  margin: 10px 20px;
 }
 
 .btn-group {
@@ -172,26 +174,27 @@ u {
 /* Table */
 .tabletitlebg {
   background-color: #105e9e;
-  
+
   width: 100%;
   height: 35px;
   font-size: 15px;
 }
 
-.table-head{
+.table-head {
   background-color: #105e9e;
-    color: white;
-    text-align: center;
-    font-family: 'Poppins';
+  color: white;
+  text-align: center;
+  font-family: 'Poppins';
 }
 
 /* td {
   text-align: center;
 } */
 
-.border-table{
+.border-table {
   border: 1px solid black;
 }
+
 /* table,td{
   border: 1px solid black;
 } */
@@ -236,7 +239,7 @@ a {
 }
 
 .active {
-  
+
   text-decoration-line: underline;
   padding-bottom: 10px;
 
