@@ -111,18 +111,13 @@ u {
 }
 
 /* About us */
-.about_us {
+#aboutus {
   background-color: #f9f8f8;
 }
 
 .Merchant {
   color: #105e9e;
   font-weight: bold;
-}
-
-.img {
-  object-fit: contain;
-  align-content: center;
 }
 
 .text {
@@ -141,6 +136,10 @@ u {
   display: contents;
 }
 
+.aboutimg {
+  object-fit: contain;
+  align-content: center;
+}
 
 /* Our Partners */
 .Our_Partners {
@@ -174,7 +173,6 @@ u {
 /* Table */
 .tabletitlebg {
   background-color: #105e9e;
-
   width: 100%;
   height: 35px;
   font-size: 15px;
@@ -187,17 +185,9 @@ u {
   font-family: 'Poppins';
 }
 
-/* td {
-  text-align: center;
-} */
-
 .border-table {
   border: 1px solid black;
 }
-
-/* table,td{
-  border: 1px solid black;
-} */
 
 /* footer */
 .footer {
@@ -239,8 +229,6 @@ a {
 }
 
 .active {
-
   text-decoration-line: underline;
   padding-bottom: 10px;
-
 }
