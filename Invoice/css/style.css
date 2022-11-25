@@ -26,55 +26,8 @@
     font-size: 14px;
 }
 
-/* Rohit Part -- Heading */
-.p-tagedited {
-    display: inline;
-}
-
-.table-edits {
-    /* display: flex; */
-    float: right;
-    padding-right: 10%;
-}
-
-.head-img {
-    position: relative;
-    /* top: 0;
-    left: 0; */
-}
-
-.heading-hr {
-    width: 85%;
-    border: 1px solid black;
-}
-
-
-
-/* Prathmesh Part --> Service Details & Bank Details */
-.border-table {
-    border: 2px solid black;
-    border-collapse: collapse;
-}
-
-/* rohit footer Part */
-.signaturediv {
-    /* border: 2px solid black; */
-    float: right;
-    text-align: center;
-    padding-right: 10%;
-}
-
-.signature-table {
-
-    text-align: center;
-    width: 30%;
-    position: absolute;
-    left: 45%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.last-image-table {
-    width: 100%;
+#contact_details{
+    text-align: justify;
 }
 
 .td-cells {
