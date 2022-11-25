@@ -25,5 +25,21 @@
     text-align: center;
     padding-right: 10%;
 }
+/* ===================================================== */
+.signature-table{
+   
+    text-align: center;
+    width: 30%;
+    position: absolute;
+    left: 45%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.last-image-table{
+    width: 100%;
+}
+.td-cells{
+    text-align: center;
+}
 
 /* -------------------->>>>>>>>>>>>>> */
