@@ -3,6 +3,28 @@
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
+.heading {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.detail {
+    font-size: 14px;
+}
+
+.table-recipient {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.hr-tag {
+
+    background-color: black;
+}
+
+
 .page {
     background: var(--white);
     display: block;
@@ -28,6 +50,30 @@
 
 #contact_details {
     text-align: justify;
+}
+
+.td-cells {
+    text-align: center;
+}
+
+.border-table {
+    border: 2px solid black;
+}
+
+.signature-table {
+
+    text-align: center;
+    width: 30%;
+    position: absolute;
+    left: 55%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.last-image-table {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 .td-cells {
