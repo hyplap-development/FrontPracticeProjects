@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Spline+Sans:wght@300&display=swap');
+
+.company-logo{
+    
+    width: 190px !important;
+    margin-left: 30%;
+    
+}
+.bg-color{
+background-color: #4e68be !important;
+}
+.fontcolor{
+    color: white !important;
+    font-weight: 600 !important;
+   justify-content: center;
+   font-size: large !important;
+  
+    
+    
+}
+.fontcolor:hover{
+    color: #ffff00 !important;
+}
+.btn-bookfreetrail{
+    border-radius: 25px;
+    border: solid 2px yellow;
+    color: white !important;
+    font-weight: 600;
+
+}
+.dropdownhover:hover{
+    background-color: #4e68be !important;
+    
+}/* whatsapp and phone icon rightsided */
+.fixed-div{
+    background-color: #4e68be;
+    width: 50px;
+    border-radius: 40px;
+    position: fixed;
+    right: 0;
+    top: 50%;  
+}
+.icon{
+   font-size:20px ;
+   padding: 30%;
+   color: #ffff00;
+   
+}
+.icon:hover{
+    color: #ffff;
+}
+/* ------------------------------------- */
