@@ -1,0 +1,68 @@
+.home_hr 
+{ 
+    width: 50%; 
+    text-align: center;
+    color: #4a68b1;
+} 
+ 
+.dog-img 
+{ 
+    height: auto; 
+    max-width: 100%; 
+    float: right;
+} 
+ 
+#ourlot{
+    background-image: url(/thebarkinglot/Images/05/Home-MB-13.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: 40%;
+}
+
+.home_icon:hover{
+    color: #FAEC4F;
+}
+/* Dog images */  
+
+.slide  
+{  
+    position: relative;  
+    margin: 0;  
+    left: 0;  
+}  
+.dog-images {   
+    display: inline;   
+    width: 100%;  
+}   
+ 
+.slider-content {   
+    display: flex;   
+    justify-content:center;   
+    align-items: center;   
+    width: 100%; 
+}   
+  
+.arrow_prev{  
+    font-size: 25px;  
+    cursor: pointer;  
+    left: 25px; 
+    position: relative; 
+    z-index: 1; 
+    color: #ffffff;   
+}  
+  
+.arrow_next{  
+    font-size: 25px;  
+    cursor: pointer;  
+    right: 25px; 
+    position: relative; 
+    z-index: 1; 
+    color: #ffffff; 
+     
+}  
+  
+.dog-images img  
+{  
+    width: 100%;  
+    position: relative; 
+}
