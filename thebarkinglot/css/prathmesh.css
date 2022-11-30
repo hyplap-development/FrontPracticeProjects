@@ -1,6 +1,56 @@
+.home {
+    background-image: url('https://thebarkinglot.ae/wp-content/uploads/2022/05/section_1-1-new.png');
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    /* width: 393px; */
+    left: 0;
+}
+
+
+.home h1 {
+    font-family: "dm serif text", Sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    color: #ffff;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+
+.home p {
+    font-family: spline sans, Sans-serif;
+    color: #ffff;
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footerbg {
+    background-image: url('https://thebarkinglot.ae/wp-content/uploads/2022/03/TBL-section_6_footer.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.footericon i {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #faec4f;
+    background-color: #4a68b1;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
 .footerheading {
     color: #000;
     font-family: "dm serif text", Sans-serif;
     font-size: 22px;
     font-weight: 600;
+    padding-bottom: 30px;
 }

@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Spline+Sans:wght@300&display=swap');
-.heading{
-    text-align: center;
-    color: #4a68b1;
-    font-size: 32px;
+
+.heading {
+        text-align: center;
+        color: #4a68b1;
+        font-size: 32px;
 }
-.headingfont{
-    font-family: 'DM Serif Text', serif; 
+
+.headingfont {
+        font-family: 'DM Serif Text', serif;
 }
-.otherfont{
-    font-family: 'Spline Sans', sans-serif;
-    font-size: 15px;
+
+.otherfont {
+        font-family: 'Spline Sans', sans-serif;
+        font-size: 15px;
 }
