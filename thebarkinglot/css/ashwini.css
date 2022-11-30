@@ -1,0 +1,40 @@
+.background
+{
+    background-repeat: no-repeat;
+    /* background-position-y: calc(-78.8558px); */
+    background-size:100% 100%;
+    background-image: url(/thebarkinglot/Images/05/TBL_HOMEPAGE-BACKGROUND-SECTION-2_FINAL-1.png);
+}
+.h3-title
+{
+    color: #000000;
+    font-family: "DM Serif Text", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: none;
+}
+span:hover
+{
+    color: rgb(210, 168, 0);
+    cursor: pointer;
+}
+.bgpack
+{
+    background-repeat: no-repeat;
+    /* background-position-y: calc(-78.8558px); */
+    background-size:100% 100%;
+    background-image: url(https://thebarkinglot.ae/wp-content/uploads/2022/05/TBLH4.png);   
+}
+.pbutton
+{
+    
+        font-family: "Spline Sans", Sans-serif;
+        font-size: 15px;
+        border-style: solid;
+        border-width: 2px 2px 2px 2px;
+        border-color: #FAEC4F;
+        border-radius: 2px 2px 2px 2px;
+        padding: 16px 25px 16px 25px;
+        border-radius: 50px;
+    
+}
