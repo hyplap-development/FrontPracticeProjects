@@ -7,12 +7,11 @@
         color: #4a68b1;
         font-size: 32px;
 }
-.headingfont{
-<<<<<<< HEAD
+.headingfont
+{
+    text-align: center;
     font-family: 'DM Serif Text', sans-serif; 
-=======
-    font-family: "dm serif text",Sans-serif
->>>>>>> 0fdd39389ed1756276391fb6e04ae1813c2d5496
+
 }
 
 .otherfont {
