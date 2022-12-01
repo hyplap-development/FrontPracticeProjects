@@ -12,7 +12,8 @@
         font-size: 32px;
 }
 .headingfont{
-    font-family: 'DM Serif Text', serif; 
+    font-family: 'DM Serif Text', sans-serif; 
+    font-family: "dm serif text",Sans-serif
 }
 .otherfont{
     font-family: 'Spline Sans', sans-serif;
