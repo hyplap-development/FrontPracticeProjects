@@ -16,8 +16,8 @@
     font-weight: 400;
     font-size: 60px;
     color: #ffff;
-    padding-top: 100px;
-    padding-left: 30px;
+    padding-top: 60px;
+    padding-left: 40px;
 }
 
 
@@ -26,7 +26,7 @@
     color: #ffff;
     padding-left: 30px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 550;
 }
 
 .footerbg {
@@ -36,7 +36,76 @@
     background-size: cover;
 }
 
-.footericon i {
+.ftco {
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    padding: 60px 0px;
+}
+
+.first {
+    /* padding: 10px 0; */
+    position: relative;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.first span {
+    /* padding: 10px; */
+    text-align: center;
+}
+
+.second {
+    /* padding: 10px 0 0; */
+    position: relative;
+    flex-wrap: wrap;
+    display: -webkit-inline-box;
+    text-align: left;
+    /* align-content: flex-start; */
+
+}
+
+.second span {
+    display: flex;
+    padding: 10px;
+    text-align: left;
+    padding: 0 auto;
+    margin: 0 auto;
+    color: #000;
+}
+
+.third {
+    padding: 10px 0 0;
+    position: relative;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.third1 {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thirdcontent {
+    text-align: left;
+    color: #000;
+    display: unset;
+    /* flex-wrap: wrap; */
+    margin-bottom: 20px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.ftcnt {
+    margin-bottom: 0;
+    color: #000;
+    font-family: spline sans, Sans-serif;
+    font-size: 14px;
+    display: -webkit-inline-box;
+}
+
+.third a>i {
     text-align: center;
     width: 30px;
     height: 30px;
@@ -47,10 +116,107 @@
     font-size: 15px;
 }
 
+.ftlist {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
 .footerheading {
     color: #000;
     font-family: "dm serif text", Sans-serif;
     font-size: 22px;
     font-weight: 600;
-    padding-bottom: 30px;
+    text-align: left;
+}
+
+.fticon {
+    color: #4a68b1;
+}
+
+.ftbtm {
+    text-align: center;
+    align-items: center;
+    color: #4a68b1;
+}
+
+.fthvr:hover {
+    align-items: center;
+    text-align: center;
+    color: #faec4f;
+}
+
+@media (max-width: 400px) {
+    .third {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .thirdcontent {
+        text-align: center;
+        color: #000;
+    }
+
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    .home {
+        background-image: url(https://thebarkinglot.ae/wp-content/uploads/2022/05/1-HOme2.png);
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .home {
+        background-image: url(https://thebarkinglot.ae/wp-content/uploads/2022/05/1-HOme2.png);
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .home {
+        background-image: url(https://thebarkinglot.ae/wp-content/uploads/2022/05/1-HOme2.png);
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    .first {
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .first {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    .second {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    .footerbg {
+        background-image: url(https://thebarkinglot.ae/wp-content/uploads/2022/05/Footer12.png) !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .footerbg {
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .footerbg {
+        background-image: url(https://thebarkinglot.ae/wp-content/uploads/2022/05/Footer12.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }

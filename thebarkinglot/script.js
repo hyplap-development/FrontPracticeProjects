@@ -37,3 +37,17 @@ $(document).ready(function(){
       });  
       
     })
+
+    // ------------togglebar icon------------//
+    document.getElementById("arrow").onclick=function(){
+      toggle1();
+    }
+function toggle1(){
+      
+      if(document.getElementById("arrow").className=='fa fa-times'){
+              document.getElementById("arrow").className='fa-solid fa-bars';
+      }else{
+              document.getElementById("arrow").className='fa fa-times';
+      }
+     
+}
