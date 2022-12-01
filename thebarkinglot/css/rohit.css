@@ -8,29 +8,45 @@
     
 }
 .bg-color{
-background-color: #4e68be !important;
+ background-color:#4A68B1 !important;
 }
 .fontcolor{
     color: white !important;
     font-weight: 600 !important;
-   justify-content: center;
-   font-size: large !important;
-  
+   /* justify-content: center; */
+   font-size: 14px;
+   font-family: 'Spline Sans', sans-serif;
     
+}
+@media  (max-width: 990px){
+    .fontcolor{
+        margin: 10px 30px;
+    }
+    .company-logo{
     
+        width: 100px !important;
+        margin-left: 25%;
+        
+    }
+
 }
 .fontcolor:hover{
     color: #ffff00 !important;
+    
 }
+/* --------------------book free trail------------- */
 .btn-bookfreetrail{
     border-radius: 25px;
     border: solid 2px yellow;
     color: white !important;
     font-weight: 600;
-
+    padding: 15px
 }
+
+/* =========================================================== */
 .dropdownhover:hover{
-    background-color: #4e68be !important;
+    background-color:#4A68B1 !important;
+    
     
 }/* whatsapp and phone icon rightsided */
 .fixed-div{
@@ -51,3 +67,27 @@ background-color: #4e68be !important;
     color: #ffff;
 }
 /* ------------------------------------- */
+.dropdown-menu{
+   
+    border-radius: 1px 0px;
+}
+/* .dropdown-item{
+    background: #324982;
+} */
+/* 
+.dropdown-menu a:hover {background-color:#24345f;} */
+
+.dropdown:hover .dropdown-menu {display: block;}
+.service-btn{
+    background-color: #4A68B1;
+    border: 0;
+  
+}
+.d-content{
+    display: contents;
+}
+/* =======================================================>>>>>>>>> */
+/* fa-solid fa-bars{
+    border: none !important;
+    background-color: #4A68B1 !important;
+} */

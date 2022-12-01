@@ -15,18 +15,18 @@
     <link rel="stylesheet" href="css/chaitli.css">
     <link rel="stylesheet" href="css/prathmesh.css">
     <link rel="stylesheet" href="css/rohit.css">
-   
 </head>
 
 <body>
     <!-- =================================================================================================== -->
     <nav class="navbar navbar-expand-lg bg-color container-fluid sticky-top">
         <a class="navbar-brand" href="#"><img class="company-logo" src="Images/04/Logo-in-Yellow-1.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="reset" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon" id="togglebar-icon" onclick="crossbar"></span> -->
+          <i class="fa-solid fa-bars " id="arrow"></i><script src="script.js"></script>
         </button>
-        <div class="collapse navbar-collapse justify-content-around" id="navbarNavDropdown">
-          <ul class="navbar-nav  ">
+        <div class="collapse navbar-collapse justify-content-lg-evenly" id="navbarNavDropdown">
+          <ul class="navbar-nav d-content ">
             <li class="nav-item active">
               <a class="nav-link fontcolor" href="#">HOME </a>
             </li>
@@ -35,8 +35,9 @@
             </li>
            
             <li class="nav-item dropdown  ">
-                <a class="nav-link  fontcolor" data-bs-toggle="dropdown" href="#">SERVICES+
-                </a>
+                <!-- <a class="nav-link  fontcolor" data-bs-toggle="dropdown" href="#">SERVICES+
+                </a> -->
+                <button class="fontcolor nav-link service-btn" data-bs-toggle="dropdown">SERVICES+</button>
                 <div class="dropdown-menu  bg-color ">
                     <a  class="dropdown-item fontcolor dropdownhover" href="">DAYCARE</a>
                     <a  class="dropdown-item fontcolor dropdownhover" href="">HOTEL</a>
@@ -57,12 +58,12 @@
                 <a class="nav-link fontcolor" href="#">CONTACT</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fontcolor " href="#"><span class="btn-bookfreetrail">BOOK FREE TRAIL</span></a>
+                <a class="nav-link fontcolor dropdownhover " href=""><span class="btn-bookfreetrail fontcolor ">BOOK FREE TRAIL</span></a>
               </li>
           </ul>
         </div>
       </nav>
-<!-- ---------------------------------------------------------------------- -->
+<!-- ------------------------------------------------------------------------>
     <div class="fixed-div ">
             
         <li type="none" class="text-center"><a  class="wpfm-menu-link" href="tel:971504542275"><i class="fa-solid fa-phone-flip icon"></i></a></li>
