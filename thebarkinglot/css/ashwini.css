@@ -2,16 +2,18 @@
 {
     background-repeat: no-repeat;
     /* background-position-y: calc(-78.8558px); */
-    background-size:100% 100%;
+    background-size :100% 75%   ;
     background-image: url(/thebarkinglot/Images/05/TBL_HOMEPAGE-BACKGROUND-SECTION-2_FINAL-1.png);
+    
 }
 .h3-title
 {
     color: #000000;
     font-family: "DM Serif Text", Sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
-    text-transform: none;
+    /* text-transform: none; */
+    line-height: 27px;
 }
 span:hover
 {
@@ -20,9 +22,10 @@ span:hover
 }
 .bgpack
 {
+
     background-repeat: no-repeat;
-    /* background-position-y: calc(-78.8558px); */
-    background-size:100% 100%;
+    /* background-position-y: calc(-82.2303px); */
+    background-size: 110% 120%;
     background-image: url(https://thebarkinglot.ae/wp-content/uploads/2022/05/TBLH4.png);   
 }
 .pbutton
@@ -36,5 +39,57 @@ span:hover
         border-radius: 2px 2px 2px 2px;
         padding: 16px 25px 16px 25px;
         border-radius: 50px;
-    
+        background-color:#4a68b1;      
+    color: white;
+}
+.pbutton:hover::after
+{
+    color: #FAEC4F;
+}
+@media (min-width: 768px) { 
+    .imgdoc
+    {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 1025px)
+{
+   .bgpack
+    {
+        background-attachment: scroll;
+        background-position: 0px -20px;
+    }
+}
+
+.txtdec
+{
+    color: #000000;
+    font-family: "DM Serif Text", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+@media (max-width: 767px)
+{
+
+.background
+{
+    background-image: url(https://thebarkinglot.ae/wp-content/uploads/2022/05/Home-MB-22.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
+@media (max-width: 767px) 
+{
+    .bgpack
+    {
+    background-image: url(https://thebarkinglot.ae/wp-content/uploads/2022/05/Home-MB-14.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 }
