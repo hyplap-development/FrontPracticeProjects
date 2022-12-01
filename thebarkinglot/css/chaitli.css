@@ -12,16 +12,11 @@
     float: right;
 } 
  
-#ourlot{
-    background-image: url(/thebarkinglot/Images/05/Home-MB-13.png);
-    background-repeat: no-repeat;
-    background-position:left;
-    background-size: 40%;
-}
-
 .home_icon:hover{
     color: #FAEC4F;
 }
+
+
 /* Dog images */  
 
 .slide  
