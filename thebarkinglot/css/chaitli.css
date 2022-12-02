@@ -13,30 +13,22 @@
 
 #ourlot 
 { 
-    /* height: 100vh; */ 
     background-image: url(/thebarkinglot/Images/05/Home-MB-13.png); 
     background-repeat: no-repeat; 
     background-position: left; 
     background-size: 50vh; 
-   
-    background-attachment: scroll; 
-    /* transform: translateY(-10px); */ 
 }
 .home_icon:hover{
     color: #FAEC4F;
 }
-
 
 /* Dog images */  
 
 .slide  
 {  
     position: relative;  
-    /* margin: 0;  
-    left: 0;   */
 }  
 .dog-images {   
-    /* display: inline;    */
     width: 100%;  
 }   
  
@@ -70,4 +62,27 @@
 {  
     width: 100%;  
     position: relative; 
+}
+
+/* Blog Page */
+/* *{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}  */
+.wave 
+{ 
+    background-color: #4a68b1; 
+}
+.card 
+{ 
+    border: none; 
+    box-shadow: 0 4px 8px 0 rgba(57, 57, 57, 0.2), 0 6px 20px 0 rgba(54, 54, 54, 0.19); 
+    /*  */ 
+} 
+ 
+.card:hover 
+{ 
+    cursor: pointer; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
