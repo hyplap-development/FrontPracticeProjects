@@ -1,6 +1,7 @@
+/* home css */
 .home {
     background-image: url('https://thebarkinglot.ae/wp-content/uploads/2022/05/section_1-1-new.png');
-    position: relative;
+    /* position: relative; */
     background-size: cover;
     height: 100vh;
     background-position: bottom right;
@@ -9,7 +10,6 @@
     /* width: 393px; */
     left: 0;
 }
-
 
 .home h1 {
     font-family: "dm serif text", Sans-serif;
@@ -20,15 +20,15 @@
     padding-left: 40px;
 }
 
-
 .home p {
-    font-family: spline sans, Sans-serif;
+    font-family: "spline sans, Sans-serif";
     color: #ffff;
     padding-left: 30px;
     font-size: 16px;
     font-weight: 550;
 }
 
+/* footer css */
 .footerbg {
     background-image: url('https://thebarkinglot.ae/wp-content/uploads/2022/03/TBL-section_6_footer.png');
     background-repeat: no-repeat;
@@ -62,7 +62,6 @@
     display: -webkit-inline-box;
     text-align: left;
     /* align-content: flex-start; */
-
 }
 
 .second span {
@@ -79,12 +78,6 @@
     position: relative;
     flex-wrap: wrap;
     align-content: center;
-}
-
-.third1 {
-    margin-bottom: 20px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .thirdcontent {
@@ -219,4 +212,433 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+}
+
+/* <----- grooming css ----> */
+* {
+    box-sizing: border-box;
+}
+
+/* grooming title css */
+.title {
+    background-image: url(https://thebarkinglot.ae/wp-content/uploads/2022/05/3-TBL_Grooming-1350x200-1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px !important;
+}
+
+#title .container {
+    /* z-index: -1; */
+    width: 100%;
+    /* padding-left: 10px !important;
+    padding-right: 10px !important; */
+    padding: 50px 0 20px 0;
+}
+
+.titlename {
+    margin: 0;
+    position: relative;
+    left: 15px !important;
+    color: #fff !important;
+    padding-top: 50px;
+}
+
+.titlename span {
+    font-family: "DM Serif Text";
+    font-size: 40px !important;
+    text-transform: uppercase !important;
+    box-sizing: border-box;
+    color: #fff !important;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+/* groom in the room */
+.cbackground {
+    background-image: url(https://thebarkinglot.ae/wp-content/uploads/2022/05/Grm2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.groomtext {
+    font-size: 30px;
+    font-family: "DM Serif Text";
+    color: #ffffff;
+    padding-top: 100px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.groompara {
+    text-align: left;
+    font-size: 15px;
+    color: #000;
+    margin-bottom: 0;
+    line-height: 1.8;
+}
+
+#details .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.detailsspace {
+    /* padding: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    align-content: flex-start;
+}
+
+.details1 {
+    display: block;
+}
+
+.detailsheading {
+    font-family: "DM Serif Text";
+    font-size: 30px !important;
+    letter-spacing: 0 !important;
+    margin: 0 0 24.9px;
+}
+
+.detailpara {
+    font-size: 14px;
+    color: #000;
+    margin: 0 0 15px;
+    font-family: "Spline Sans", Sans-serif !important;
+}
+
+.detailparaheading {
+    font-size: 14px;
+    color: #000;
+    font-family: "DM Serif Text";
+    font-weight: bolder;
+}
+
+.detailsubhead {
+    font-size: 14px;
+    color: #000;
+    /* margin: 10px; */
+}
+
+/* .detailcontent{
+    margin-bottom: 10px!important;
+} */
+/* .detailpara {
+    color: #000000 !important;
+    font-family: "Spline Sans", Sans-serif !important;
+    font-size: 14px !important;
+} */
+
+/* .details1 p {
+    font-family: "DM Serif Text";
+    display: block;
+    margin-top: 0;
+    color: #000000 !important;
+    font-size: 15px !important;
+} */
+
+/* b,
+strong {
+    font-weight: bolder;
+} */
+
+/* ul .points {
+    list-style: disc !important;
+
+} */
+
+/* .points li {
+    color: #000000 !important;
+    font-family: "Spline Sans", Sans-serif !important;
+    font-size: 14px !important;
+    margin-bottom: 10px !important;
+} */
+
+.space {
+    height: var(--spacer-size);
+    --spacer-size: 50px;
+}
+
+/* small dog css */
+
+#smalldog {
+    width: 100%;
+    position: relative;
+}
+
+#smalldog.container {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.smalldogcontent {
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.smalldogcontentspace {
+    --spacer-size: 50px;
+    height: var(--spacer-size);
+    margin-bottom: 20px;
+    width: 100%;
+    position: relative;
+    border-radius: 25px !important;
+}
+
+.smalldogheading {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.card {
+    margin: 10px;
+}
+
+.smalldogheading .container {
+    border-radius: 25px !important;
+    text-align: center;
+}
+
+.smalldogtitle {
+    font-size: 24px;
+    font-family: "DM Serif Text";
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0px !important;
+    text-align: center;
+}
+
+.smalldogdata {
+    padding: 40px 40px 40px 40px;
+    width: 100%;
+    position: relative;
+}
+
+.smalldogdata .container {
+    padding: 40px 40px 40px 40px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* 
+.e-price-table {
+    text-align: center;
+} */
+
+.card-header {
+    background: var(--e-price-table-header-background-color, #555);
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    --e-price-table-header-background-color: #4A68B1;
+}
+
+.card-heading {
+    font-size: 20px;
+    font-family: "DM Serif Text";
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 0px !important;
+    text-align: center;
+}
+
+.card-price {
+    font-family: "Spline Sans", Sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #555;
+    font-weight: 900;
+    font-size: 65px;
+    padding: 40px 0;
+    text-align: center;
+
+}
+
+.card-price-1 {
+    font-size: calc(14em/100);
+    align-self: flex-start;
+    margin-right: 3px;
+    line-height: 1.2;
+    font-family: "Spline Sans", Sans-serif;
+    color: #555;
+    font-weight: 800;
+    text-align: center;
+}
+
+.card-price-2 {
+    line-height: .8;
+    font-family: "Spline Sans", Sans-serif;
+    color: #555;
+    font-weight: 800;
+    font-size: 65px;
+    text-align: center;
+}
+
+.e-price-table-list {
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    line-height: 1;
+    list-style: none;
+}
+
+.e-price-table-list li {
+    font-family: "Spline Sans", Sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.e-price-table-list li::before {
+    content: "";
+    display: block;
+    border: 0 solid hsla(0, 0%, 47.8%, .3);
+    margin: 10px 12.5%;
+}
+
+.grooming-booknow {
+    height: 66px;
+    border: #4a68b1 solid 2px;
+}
+
+.grooming-booknow:hover {
+    color: white !important;
+    background-color: #FAEC4F;
+    border: #4a68b1 solid 2px;
+}
+
+.card-button {
+    margin: 30px;
+}
+
+.card {
+    width: 100%;
+    box-shadow: 4px 1px 10px -2px rgb(0 0 0 / 50%);
+    overflow: hidden;
+    background-color: #f7f7f7;
+    border-radius: 25px !important;
+}
+
+/* card buttons */
+
+.card-booknow {
+    height: 66px;
+    border: #4a68b1 solid 2px;
+}
+
+.card-booknow:hover {
+    color: white !important;
+    background-color: #FAEC4F;
+    border: #4a68b1 solid 2px;
+}
+
+/* fine print */
+
+#fineprint {
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 7px 6px 10px 0px rgb(0 0 0 / 50%);
+    border-radius: 10px;
+    position: relative;
+}
+
+.fineprintbg {
+    border-radius: 10px 10px 10px 10px;
+    background-color: #F8F8F8;
+    top: 0;
+    left: 0;
+    min-height: 1px;
+    position: relative;
+}
+
+.fineprintbg .container {
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.fineprintcontent {
+    background-color: #F8F8F8;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.fineprintheading {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.headingtext {
+    font-family: "DM Serif Text";
+    font-size: 27px;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0 !important;
+    font-weight: bold;
+}
+
+.fineprintdata .container {
+    padding: 0px 0px 0px 0px;
+    font-family: "Spline Sans", Sans-serif;
+    font-size: 16px;
+}
+
+.fineprintdata ul {
+    display: block;
+    list-style-type: disc;
+}
+
+/* end */
+.fbackground {
+    background-image: url(https://thebarkinglot.ae/wp-content/uploads/2022/05/About-bg-2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+
+.pbutton {
+    font-family: "Spline Sans", Sans-serif;
+    font-size: 15px;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FAEC4F;
+    border-radius: 2px 2px 2px 2px;
+    padding: 16px 25px 16px 25px;
+    border-radius: 50px;
+    background-color: #4a68b1;
+    color: white;
+}
+
+.pbutton:hover {
+    color: #FAEC4F;
+}
+
+.fbackgroundtext {
+    font-size: 30px;
+    font-family: "DM Serif Text";
+    color: white;
 }
