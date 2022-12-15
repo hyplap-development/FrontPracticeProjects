@@ -16,17 +16,16 @@
     <link rel="stylesheet" href="css/chaitli.css">
     <link rel="stylesheet" href="css/prathmesh.css">
     <link rel="stylesheet" href="css/rohit.css">
+   
 
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg bg-color container-fluid sticky-top">
+    <!-- <header class="bg-color">
+    <nav class="navbar navbar-expand-lg bg-color container sticky-top">
         <a class="navbar-brand" href="#"><img class="company-logo" src="Images/04/Logo-in-Yellow-1.png" alt=""></a>
-        <button class="navbar-toggler" type="reset" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <!-- <span class="navbar-toggler-icon" id="togglebar-icon" onclick="crossbar"></span> -->
-          <i class="fa-solid fa-bars " id="arrow"></i><script src="script.js"></script>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown "  onclick="closeNav()">
+          <i class="fa-solid fa-bars " id="arrow" ></i><script src="script.js"></script>
         </button>
         <div class="collapse navbar-collapse justify-content-lg-evenly" id="navbarNavDropdown">
             <ul class="navbar-nav d-content ">
@@ -37,18 +36,16 @@
                     <a class="nav-link fontcolor" href="#">OUR STORY</a>
                 </li>
 
-                <li class="nav-item dropdown  ">
-                    <!-- <a class="nav-link  fontcolor" data-bs-toggle="dropdown" href="#">SERVICES+
-                    </a> -->
-                <button class="fontcolor nav-link service-btn" data-bs-toggle="dropdown">SERVICES+</button>
-                    <div class="dropdown-menu  bg-color ">
-                        <a class="dropdown-item fontcolor dropdownhover" href="">DAYCARE</a>
-                        <a class="dropdown-item fontcolor dropdownhover" href="">HOTEL</a>
-                        <a class="dropdown-item fontcolor dropdownhover" href="">GROOMING</a>
-                        <a class="dropdown-item fontcolor dropdownhover" href="">CATTERY</a>
+                <li class="nav-item dropdown ">
+                    <a href="" class="fontcolor nav-link service-btn">Service+</a>
+                    <div class="dropdown-menu  bg-color dropdown-animated">
+                        <a class="dropdown-item fontcolor dropdownhover " href="">DAYCARE</a>
+                        <a class="dropdown-item fontcolor dropdownhover " href="">HOTEL</a>
+                        <a class="dropdown-item fontcolor dropdownhover " href="">GROOMING</a>
+                        <a class="dropdown-item fontcolor dropdownhover " href="">CATTERY</a></div>
                 </li>
 
-                <li class="nav-item">
+                <li  class="nav-item">
                     <a class="nav-link fontcolor" href="#">PRICING</a>
                 </li>
                 <li class="nav-item">
@@ -66,6 +63,62 @@
             </ul>
         </div>
     </nav>
+</header> -->
+
+    
+<header class="bg-color sticky-top">
+    <nav class="navbar navbar-expand-lg bg-color container ">
+        <a class="navbar-brand" href="#"><img class="company-logo" src="Images/04/Logo-in-Yellow-1.png" alt=""></a>
+        <button class="navbar-toggler " type="button" data-trigger="#navbarNavDropdown">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class=" navbar-collapse justify-content-lg-evenly" id="navbarNavDropdown">
+            <div class="offcanvas-header mt-3">
+                <img class="company-logo" src="Images/04/Logo-in-Yellow-1.png" alt="">  
+                <button class="btn btn-outline-danger text-light btn-close float-end mx-4 mt-3 "></button>
+                
+              </div>
+           
+            <ul class="navbar-nav d-content ">
+                <li class="nav-item active">
+                    <a class="nav-link fontcolor" href="#">HOME </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fontcolor" href="#">OUR STORY</a>
+                </li>
+
+                <li class="nav-item dropdown ">
+                    <a href="#" class="fontcolor nav-link service-btn ">SERVICE &nbsp;+</a>
+                    <div class="dropdown-menu   bg-color dropdown-animated">
+                        <a class="dropdown-item fontcolor dropdownhover " href="#">DAYCARE</a>
+                        <a class="dropdown-item fontcolor dropdownhover " href="#">HOTEL</a>
+                        <a class="dropdown-item fontcolor dropdownhover " href="#">GROOMING</a>
+                        <a class="dropdown-item fontcolor dropdownhover " href="#">CATTERY</a></div>
+                </li>
+
+                <li  class="nav-item">
+                    <a class="nav-link fontcolor" href="#">PRICING</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fontcolor" href="#">GALLERY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fontcolor" href="#">BLOG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fontcolor" href="#">CONTACT</a>
+                <!-- </li><li class="nav-item bft-btn">
+                    <a class="nav-link fontcolor" href="#">BOOK FREE TRAIL</a>
+                </li> -->
+                <li class="nav-item  bft-btn2">
+                    <a class="nav-link fontcolor dropdownhover  " href=""><span class="btn-bookfreetrail  fontcolor ">BOOK FREE TRAIL</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
     <div class="fixed-div ">
 
         <li type="none" class="text-center"><a class="wpfm-menu-link" href="tel:971504542275"><i
@@ -480,6 +533,9 @@
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
         </script>
     <script src="script.js"></script>
+
+
+
 </body>
 
 </html>

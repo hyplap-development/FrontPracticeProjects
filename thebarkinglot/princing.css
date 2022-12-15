@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Noto+Sans:ital,wght@1,200&family=Spline+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
+.btn-size:hover{
+    background-color: #FAEC4F !important ;
+    color: aliceblue;
+}
+.btn-size{
+    width: 169px;
+    height: 62px;
+   
+}
+.anchor-text{
+   
+    color: black;
+    font-size: 24px;
+}
+.whatsappicon{
+    font-size: 30px;
+    background-color: #09ba09;
+    color: white !important;
+}
+.whatsapp-bg{
+    height: 66px;
+    width: 204px;
+    
+    background-color: #09ba09;
+}
+
+
+/* --------------------------------------------------------------------------------------- */
+.pricing{
+  
+  
+   position: absolute;
+   top: 210px;
+   left: 90px;
+   color: #ffffff;
+   font-size: 48px;
+   
+}
+
+@media (max-width:990px){
+    .pricing{
+        font-size: 30px;
+        left:30px;
+        top:160px;
+    }
+}
+
+/* -------------------------------------------------------------------- */
+
+/* .cards{
+    height: 64px;
+    background-color: #4a68b1;
+    color: #ffffff;
+    border-radius: 20px 20px 0px 0px;
+    font-family: 'DM Serif Text', sans-serif; 
+    
+    
+    
+    
+}
+.midsection{
+    height: 132px;
+    background-color: #f4f5f4;
+   
+    
+    
+}
+.ul-div{
+    height: 123px;
+    background-color: #f4f5f4;
+    font-family: 'Spline Sans', sans-serif;
+   
+    
+
+}
+.button{
+    width: 100%;
+    height: 126px;
+    background-color: #f4f5f4;
+    border-radius: 0px 0px 20px 20px ;
+    
+}
+.anchor-button{
+    background-color: #f4f5f4;
+    height: 66px;
+    width: 168px;
+    border: #4a68b1 solid 2px;
+    
+}
+.h4-edit{
+    font-size: 65px;
+    color: #555555;
+    /* font-family: 'Spline Sans', sans-serif; */
+/* }
+.text{
+    font-family: 'Spline Sans', sans-serif;
+    color: black;
+  
+    
+}
+.mm{
+    box-shadow: 2px 0 5px 2px rgb(102, 100, 100);
+} */ 
+/* ---------------------------------------------------------------------------------------- */
+.font-sapline{
+    font-family: 'Spline Sans', sans-serif;
+}
+.font-dm-serif-text{
+    font-family: 'DM Serif Text', sans-serif; 
+}
+/* ---------------------------------------------------------------------------------------------- */
+
+
+/* JUMBOTRONS DIVS */
+.jumbotron-bg{
+    background-color: #F8F8F8;
+}
+.shadow{
+    box-shadow: 5px 5px 6px 1px rgb(140, 139, 139) !important;
+}
+/* -------------------------------------------------------------------------------------------------- */
+
+
+/* heading with icons */
+.size-48{
+    font-size: 48px;
+}
+.padding-left{
+    padding-left: 12%;
+}
+.img-sm{
+    width: 105px;
+    height: 105px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+
+/* media queries of pricing pg second section */
+@media (max-width:990px){
+    .img-md{
+        width: 91px;
+    }
+    .fs-md{
+        font-size: 27px !important;
+    }
+    .pricing{
+        font-size: 30px;
+        left:30px;
+        top:160px;
+    }
+    .size-48{
+        font-size: 34px;
+    }
+    .ll{
+        display: none !important;
+    }
+
+    .grooming-booknow{
+        width: 100px !important;
+    }
+
+    .anchor-button{
+        width: 100px !important;
+    }
+}
+@media (max-width:400px){
+   .fs-md{
+    font-size: 15px !important;
+   }
+   .img-md{
+    width: 47px;
+   }
+   .grooming-booknow{
+    display: none;
+   }
+   .margin-sm{
+    margin: 10px;
+   }
+
+}
+@media (max-width:1300){
+   
+}
+
+
+/* ______________________________________________________________________________________________________________________________ */
+
+/* css of card section  */
+.padding{
+    padding: 20px 0px;
+}
+.card-bg{
+    background-color: #F7F7F7;
+}
+.border-radius{
+    border-radius: 20px 20px 0px 0px;
+    
+}
+.fs-65px{
+    font-size: 65px;
+    font-weight: 800 !important;
+    color: #555555;
+    
+}
+.fs-14px{
+    font-size: 14px;
+}
+.fs-20px{
+    font-size: 20px;
+}
+.fs-24px{
+    font-size: 24px;
+}
+.ul-div{
+    height: 123px;
+}
+.btn-padding{
+    padding: 23px 40px;
+}
+.anchor-btn{
+    border: 2px solid #4a68b1;
+    border-radius: 50%;
+}
+
+.anchor-button{
+   
+    height: 66px;
+    width: 204px;
+    border: #4a68b1 solid 2px; 
+}
+.anchor-button:hover{
+    background-color: #FAEC4F !important ;
+    color: #ffffff !important ;
+}
+.card-shadow{
+    box-shadow: 5px 5px 6px 3px rgb(140, 139, 139) !important;
+}
+.paw-icon-size{
+    width: 18.20px;
+    height: 18.40px;
+}
+.sup-word{
+    font-size: 9px;
+    
+}
+.p-ul{
+    padding-right: 32px ;
+}
+.pb-anchor{
+    padding: 30px 0px 0px 0px;
+  
+}
+.pb-anchor-hotel{
+    padding: 90px 0px 0px 0px;
+}
+.pb-mansion{
+    padding: 65px 0px 0px 0px;
+}
+.grooming-booknow{
+   
+    height: 66px;
+    width: 280px;
+    border: #4a68b1 solid 2px; 
+}
+
+.lastbtn{
+    position: relative;
+    bottom: 0%;
+
+}
+.forspace{
+    width: 100%;
+    height: var(--spacer-size);
+    --spacer-size:150px;
+}
+.forspace-50px{
+    width: 100%;
+    height: var(--spacer-size);
+    --spacer-size:80px;
+}
+.p-40px{
+    padding: 40px;
+}
+.sp-div{
+    height: 110px;
+}
+
+/* ========================= */
+.fbackground {
+    background-image: url(https://thebarkinglot.ae/wp-content/uploads/2022/05/About-bg-2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+
+.pbutton {
+    font-family: "Spline Sans", Sans-serif;
+    font-size: 15px;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FAEC4F;
+    border-radius: 2px 2px 2px 2px;
+    padding: 16px 25px 16px 25px;
+    border-radius: 50px;
+    background-color: #4a68b1;
+    color: white;
+}
+
+.pbutton:hover {
+    color: #FAEC4F;
+}
+.fbackgroundtext{
+    font-size: 30px;
+    font-family: "DM Serif Text";
+    color: white;
+}
+
+/* ================================== */
+.e-price-table-footer{
+    margin: 30px;
+}
+
+
+.grooming-booknow{
+    height: 66px;
+    width: 280px;
+    border: #4a68b1 solid 2px; 
+}
+.grooming-booknow:hover{
+    color: white !important;
+    background-color: #FAEC4F;
+    border: #4a68b1 solid 2px; 
+}
+
+.rotate{
+    transform: rotate(45deg);
+   transform-origin: -10px;
+   background: #DEF368;
+}
+
+/* .ribbon{
+    width: 40%;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    rotate: 45deg;
+    position: absolute;
+    
+    
+} */
+
+
+
+.ribbon{
+   width:110px ;
+   height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+   position: absolute;
+   left: 65%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+}
+.ribbon::before{
+    content: '';
+    position: absolute;
+    font-family: 'DM Serif Text', sans-serif; 
+    width: 140%;
+    height: 30px;
+    background-color:#DEF368;
+    transform: rotate(45deg) translateY(-15px);
+ 
+}
+.ribbon:after{
+    z-index: -1;
+    content:'';
+    position: absolute;
+    width: 150%;
+    height: 30px;
+    background-color: #fabb4f;
+    transform: rotate(225deg) translateY(-15px)
+    
+}
+.hrib{
+    position: absolute;
+    transform: rotate(45deg);
+    font-family: 'DM Serif Text', sans-serif; 
+    top: 25%;
+    font-size: 13px;
+    
+    
+}
+
+.phone-none{
+    display: flex !important;
+}
+.phone-available{
+    display: none !important;
+}
+
+@media (max-width:400px){
+    .phone-none{
+        display: none !important;
+    }
+    .phone-available{
+        display: flex !important;
+    }
+}

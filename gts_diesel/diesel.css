@@ -1,0 +1,6 @@
+/* .table{
+    padding: 0px 0px 0px 0px !important;
+} */
+.table>:not(caption)>*>* {
+    padding: 0rem 0rem !important;
+}

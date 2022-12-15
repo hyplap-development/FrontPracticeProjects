@@ -39,15 +39,27 @@ $(document).ready(function(){
     })
 
     // ------------togglebar icon------------//
-    document.getElementById("arrow").onclick=function(){
-      toggle1();
-    }
-function toggle1(){
+//     document.getElementById("arrow").onclick=function(){
+//       toggle1();
+//     }
+// function toggle1(){
       
-      if(document.getElementById("arrow").className=='fa fa-times'){
-              document.getElementById("arrow").className='fa-solid fa-bars';
-      }else{
-              document.getElementById("arrow").className='fa fa-times';
-      }
+//       if(document.getElementById("arrow").className=='fa fa-times'){
+//               document.getElementById("arrow").className='fa-solid fa-bars';
+//       }else{
+//               document.getElementById("arrow").className='fa fa-times';
+//       }
      
-}
+// }
+
+$("[data-trigger]").on("click", function(){
+  var trigger_id =  $(this).attr('data-trigger');
+  $(trigger_id).toggleClass("show");
+  $('body').toggleClass("offcanvas-active");
+});
+
+// close button 
+$(".btn-close").click(function(e){
+  $(".navbar-collapse").removeClass("show");
+  $("body").removeClass("offcanvas-active");
+}); 

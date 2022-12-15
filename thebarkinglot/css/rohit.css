@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Spline+Sans:wght@300&display=swap');
 
+
 .company-logo{
     
-    width: 190px !important;
-    margin-left: 40%;
-    
+    width: 150px !important;
+   
 }
 .bg-color{
 background-color: #4a68b1 !important;
@@ -25,10 +25,14 @@ background-color: #4a68b1 !important;
     .company-logo{
     
         width: 100px !important;
-        margin-left: 25%;
         
     }
-
+    
+   
+.navbar-toggler{
+    height: 100%;
+    overflow-y: hidden;
+}
 }
 .fontcolor:hover{
     color: #ffff00 !important;
@@ -86,8 +90,97 @@ background-color: #4a68b1 !important;
 .d-content{
     display: contents;
 }
-/* =======================================================>>>>>>>>> */
-/* fa-solid fa-bars{
-    border: none !important;
-    background-color: #4A68B1 !important;
-} */
+.dropdown-animated{
+    animation: growDown 400ms ease-in ;
+    transform-origin: top center;
+    
+}
+    
+
+
+@keyframes growDown {
+     0% {
+        transform: scaleY(0)
+    }
+    80% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+   
+}
+/* ========================================================================== */
+
+
+.offcanvas-header{ display:none; }
+
+@media (max-width: 992px) {
+  .offcanvas-header{ display:block; }
+  .navbar-collapse {
+    position: fixed;
+    top:0; 
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color:#4A68B1 ;
+    transition: visibility 1s ease-in-out, -webkit-transform 1s ease-in-out;
+   
+  }
+  .navbar-collapse.show {
+    visibility: visible;
+    transform: translateX(-100%);
+  }
+
+  .dropdown-animated{
+    animation: none !important;
+    transform-origin: none !important;
+    
+}
+    @keyframes growDown {
+    0% {
+       transform: none !important;
+   }
+   80% {
+       transform: none !important;
+   }
+   100% {
+       transform: none !important;
+   }
+
+    }
+
+  .d-content{
+    display: flex;
+  }
+  .btn-bookfreetrail{
+    
+    
+    color: white !important;
+    font-weight: 600;
+    padding: 15px
+}
+
+}
+
+
+
+.bft-btn{
+    display: none;
+}
+ @media (max-width:400px){
+    .bft-btn{
+        display: block;
+    }
+    .bft-btn2{
+        display: none;
+     }
+
+ }
+ .bft-btn2{
+    display: block;
+ }

@@ -1,0 +1,33 @@
+.bg-orange{
+    background-color: #ffc000 !important;
+}
+
+.heading-div{
+    width: 100%;
+ 
+
+}
+.bg-green{
+    background-color: rgb(60, 162, 60) !important;
+}
+.title{
+    
+    padding-top: 6.25rem;
+}
+/* .border-color{
+    border: #ffc000 !important;
+    outline-color: #ffc000 !important;
+} */
+
+.page[size="A4"]{
+    width: 793.7px;
+    height: 1122.52px;
+    overflow: hidden;
+}
+
+.fs-8pt{
+    font-size: 8pt !important;
+}
+/* .pp{
+    padding-top: 105px !important;
+} */
