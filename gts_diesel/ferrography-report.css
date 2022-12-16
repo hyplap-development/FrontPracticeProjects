@@ -1,3 +1,14 @@
 .bg-yellow{
     background-color: #ffff00 !important;
 }
+
+.divheader{
+    display: none;
+}
+.divheader{
+    @media print{
+        .divheader{
+            position: fixed;
+        }
+    }
+}
