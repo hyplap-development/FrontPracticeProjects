@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- CSS only -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.36.3/apexcharts.min.css"
+        integrity="sha512-tJYqW5NWrT0JEkWYxrI4IK2jvT7PAiOwElIGTjALSyr8ZrilUQf+gjw2z6woWGSZqeXASyBXUr+WbtqiQgxUYg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="fs">
+    <!-- <div class="my-5 page" size="A4"> -->
+    <div class="mydiv">
+        <h6 class="p-2 text-center">
+            PHISICO CHEMICAL PARAMETER
+        </h6>
+    </div>
+    <div>
+        <table class="table table-bordered" style="width:100%">
+            <tr>
+                <th colspan="4" class="text-center">USN:</th>
+                <th class="bg-success text-center">GTS162039</th>
+                <th class="text-center">-----</th>
+                <th class="text-center">-----</th>
+            </tr>
+            <tr>
+                <th colspan="4" class="text-center">Report Date</th>
+                <th class="text-center">0-Jan-00</th>
+                <th class="text-center"></th>
+                <th class="text-center"></th>
+
+            </tr>
+            <tr>
+                <th class="text-center">TEST</th>
+                <th class="text-center">ASTM</th>
+                <th class="text-center">LIMIT</th>
+                <th class="text-center">LIMIT</th>
+                <th colspan="3" class="text-center">RESULT</th>
+            </tr>
+            <tr>
+                <td class="text-center">TOTAL ACID NUMBER</td>
+                <td class="text-center">ASTM D 664</td>
+                <td class="text-center">MgKOH/g</td>
+                <td class="text-center"> 1 </td>
+                <td class="text-center"> 0.55 </td>
+                <td class="text-center"> </td>
+                <td class="text-center"> </td>
+            </tr>
+            <tr>
+                <td class="text-center">VISCOSITY AT 40 DEG</td>
+                <td class="text-center">ASTM D 445</td>
+                <td class="text-center">cSt</td>
+                <td class="text-center">61.2-74.8</td>
+                <td class="text-center">72.99</td>
+                <td class="text-center"> --</td>
+                <td class="text-center"> -- </td>
+            </tr>
+            <tr>
+                <td class="text-center">MOISTURE</td>
+                <td class="text-center">ASTM D 1744</td>
+                <td class="text-center">ppm</td>
+                <td class="text-center">250</td>
+                <td class="text-center"> 152</td>
+                <td class="text-center"> </td>
+                <td class="text-center"> </td>
+            </tr>
+            <tr>
+                <td class="text-center">DIRECT READING FERROGRAPHY</td>
+                <td class="text-center">ASTM D7690</td>
+                <td class="text-center">DL/DS/ WPC</td>
+                <td class="text-center">25</td>
+                <td class="text-center">18 </td>
+                <td class="text-center"> --</td>
+                <td class="text-center"> --</td>
+            </tr>
+            <tr>
+                <td class="text-center">PARTICLE COUNT NAS</td>
+                <td class="text-center">NAS 1638</td>
+                <td class="text-center"> </td>
+                <td class="text-center">7</td>
+                <td class="text-center"> 8 </td>
+                <td class="text-center"> --</td>
+                <td class="text-center">-- </td>
+            </tr>
+            <tr>
+                <td class="text-center">PARTICLE COUNT ISO</td>
+                <td class="text-center">ISO 4406</td>
+                <td class="text-center">--</td>
+                <td class="text-center">-- </td>
+                <td class="text-center">19/17/14</td>
+                <td class="text-center"> --</td>
+                <td class="text-center"> --</td>
+            </tr>
+        </table>
+        <div class="map col-6" style="padding: 50px;">
+            <div class="col-6 chart-1 graphborder" id="chart3"></div>
+            <div class="col-6 chart-1 graphborder" id="chart4"></div>
+        </div>
+        <div class="map col-4">
+            <div class="col-4 chart-1 graphborder" id="chart"></div>
+            <div class="col-4 chart-1 graphborder" id="chart1"></div>
+            <div class="col-4 chart-1 graphborder" id="chart2"></div>
+        </div>
+        <!-- <div class="row div1">
+            <div class="col-4 div1">
+                <div class="chart-1" id="chart"></div>
+            </div>
+            <div class="col-4 div1">
+                <div class="chart-1" id="chart1"></div>
+            </div>
+            <div class="col-4 div1">
+                <div class="chart-1" id="chart2"></div>
+            </div>
+        </div> -->
+        <table class="table table-bordered">
+            <tr>
+                <td colspan="12">
+                    <ol>
+                        REMARK
+                        <li>The report shall not be replicated or duplicated in full form or in part without written
+                            confirmation from M/S Global Technical services.</li>
+                        <li>The report represents samples tested only as mentioned via sample ID</li>
+                        <li>All rights reserved @ Global Technical Services.</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr height="35px">
+                <td colspan="6">TESTED BY</td>
+                <td colspan="6">AUTHORIZED BY</td>
+            </tr>
+        </table>
+    </div>
+    <!-- </div> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.36.3/apexcharts.min.js"
+        integrity="sha512-sa449wQ9TM6SvZV7TK7Zx/SjVR6bc7lR8tRz1Ar4/R6X2jOLaFln/9C+6Ak2OkAKZ/xBAKJ94dQMeYa0JT1RLg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        var options = {
+            series: [{
+                name: 'Net Profit',
+                data: [44, 55, 57, 56, 61, 58, 63, 60, 66]
+            }, {
+                name: 'Revenue',
+                data: [76, 85, 101, 98, 87, 105, 91, 114, 94]
+            }, {
+                name: 'Free Cash Flow',
+                data: [35, 41, 36, 26, 45, 48, 52, 53, 41]
+            }],
+            chart: {
+                type: 'bar',
+                height: 250
+            },
+            plotOptions: {
+                bar: {
+                    horizontal: false,
+                    columnWidth: '55%',
+                    endingShape: 'rounded'
+                },
+            },
+            dataLabels: {
+                enabled: false
+            },
+            stroke: {
+                show: true,
+                width: 2,
+                colors: ['transparent']
+            },
+            xaxis: {
+                categories: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+            },
+            yaxis: {
+                title: {
+                    text: '$ (thousands)'
+                }
+            },
+            fill: {
+                opacity: 1
+            },
+            tooltip: {
+                y: {
+                    formatter: function (val) {
+                        return "$ " + val + " thousands"
+                    }
+                }
+            }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+        var chart1 = new ApexCharts(document.querySelector("#chart1"), options);
+        chart1.render();
+        var chart2 = new ApexCharts(document.querySelector("#chart2"), options);
+        chart2.render();
+        var chart3 = new ApexCharts(document.querySelector("#chart3"), options);
+        chart3.render();
+        var chart4 = new ApexCharts(document.querySelector("#chart4"), options);
+        chart4.render();
+    </script>
+</body>
+
+</html>

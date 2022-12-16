@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Noto+Sans:ital,wght@1,200&family=Spline+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
 /* home css */
 .home {
     background-image: url('https://thebarkinglot.ae/wp-content/uploads/2022/05/section_1-1-new.png');
@@ -7,7 +11,6 @@
     background-position: bottom right;
     background-repeat: no-repeat;
     padding: 50px 0;
-    /* width: 393px; */
     left: 0;
 }
 
@@ -221,18 +224,28 @@
 
 /* grooming title css */
 .title {
-    background-image: url(https://thebarkinglot.ae/wp-content/uploads/2022/05/3-TBL_Grooming-1350x200-1.png);
+    background: url(https://thebarkinglot.ae/wp-content/uploads/2022/05/3-TBL_Grooming-1350x200-1.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px !important;
+    /* height: 200px !important; */
+}
+
+@media (max-width: 768px) {
+    .title {
+        background-image: url(https://thebarkinglot.ae/wp-content/uploads/2022/05/Groom-Mobile.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .titlename span {
+        display: none;
+    }
 }
 
 #title .container {
-    /* z-index: -1; */
     width: 100%;
-    /* padding-left: 10px !important;
-    padding-right: 10px !important; */
     padding: 50px 0 20px 0;
 }
 
@@ -255,11 +268,66 @@
 }
 
 /* groom in the room */
+
+
+
 .cbackground {
     background-image: url(https://thebarkinglot.ae/wp-content/uploads/2022/05/Grm2.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media (max-width: 767px) {
+    .cbackground {
+        background-image: url(https://thebarkinglot.ae/wp-content/uploads/2022/05/Groom-MB-5.png);
+    }
+
+    .slide {
+        height: 250px;
+    }
+
+    .slick-dots {
+        bottom: 105px;
+    }
+}
+
+/* sliders */
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+/* .slide img {
+    width: 450px;
+    height: 400px;
+    border-radius: 10px;
+} */
+.slide .pic1 {
+    /* padding-left: 110px; */
+    width: 450px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.slide .pic2 {
+    /* padding-left: 110px; */
+    width: 450px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.slide .pic3 {
+    /* padding-left: 110px; */
+    width: 450px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.homeslider {
+    height: 400px;
+    /* border-radius: 10px 10px; */
+    padding: 30px 10px;
 }
 
 .groomtext {
@@ -272,11 +340,31 @@
 }
 
 .groompara {
+    font-family: "Spline Sans", Sans-serif;
     text-align: left;
     font-size: 15px;
     color: #000;
     margin-bottom: 0;
     line-height: 1.8;
+}
+
+.groomimg {
+    display: none;
+    vertical-align: middle;
+    padding-left: 100px;
+}
+
+/* @media (max-width: 767px) {
+    .groomimg {
+        display: none;
+    }
+} */
+@media (max-width: 767px) {
+    .groomimg {
+        display: block;
+        /* vertical-align: middle; */
+        padding-left: 0px;
+    }
 }
 
 #details .container {
@@ -307,7 +395,7 @@
 .detailpara {
     font-size: 14px;
     color: #000;
-    margin: 0 0 15px;
+    margin: 0 0 14px;
     font-family: "Spline Sans", Sans-serif !important;
 }
 
@@ -370,7 +458,8 @@ strong {
     position: relative;
 }
 
-#smalldog.container {
+.smalldog.container {
+    width: 90%;
     margin: 0 auto;
     box-sizing: border-box;
 }
@@ -392,16 +481,35 @@ strong {
     border-radius: 25px !important;
 }
 
+@media (max-width: 400px) {
+    .smalldogcontentspace {
+        --spacer-size: 50px;
+        height: var(--spacer-size);
+        /* margin-bottom: 20px; */
+        width: 100%;
+        position: relative;
+        border-radius: 25px !important;
+    }
+
+    .smalldogheading {
+        text-align: center;
+        /* margin-bottom: 20px; */
+        width: 100%;
+        position: relative;
+    }
+}
+
 .smalldogheading {
     text-align: center;
+    margin-top: 10px;
     margin-bottom: 20px;
     width: 100%;
     position: relative;
 }
 
-.card {
+/* .card {
     margin: 10px;
-}
+} */
 
 .smalldogheading .container {
     border-radius: 25px !important;
@@ -418,9 +526,9 @@ strong {
 }
 
 .smalldogdata {
-    padding: 40px 40px 40px 40px;
+    /* padding: 40px 40px 40px 40px; */
     width: 100%;
-    position: relative;
+    /* position: relative; */
 }
 
 .smalldogdata .container {
@@ -428,22 +536,35 @@ strong {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    position: relative;
+    /* position: relative; */
     margin: 0 auto;
-    padding: 10px;
+    /* padding: 10px; */
+}
+
+@media (max-width: 400px) {
+    .smalldogdata .container {
+        padding: 10px;
+        /* padding: 40px 40px 40px 40px; */
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin: 0 auto;
+    }
 }
 
 /* 
 .e-price-table {
     text-align: center;
 } */
+.card-body {
+    padding: 0;
+}
 
 .card-header {
-    background: var(--e-price-table-header-background-color, #555);
     padding: 20px 0;
     width: 100%;
     text-align: center;
-    --e-price-table-header-background-color: #4A68B1;
+    background-color: #4A68B1;
 }
 
 .card-heading {
@@ -493,12 +614,12 @@ strong {
 }
 
 .e-price-table-list {
-    padding: 0;
     text-align: center;
     list-style-type: none;
     margin: 0;
     line-height: 1;
     list-style: none;
+    padding: 0px 0px 40px 0px !important;
 }
 
 .e-price-table-list li {
@@ -532,12 +653,72 @@ strong {
     margin: 30px;
 }
 
+
 .card {
     width: 100%;
     box-shadow: 4px 1px 10px -2px rgb(0 0 0 / 50%);
     overflow: hidden;
     background-color: #f7f7f7;
     border-radius: 25px !important;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .card-button {
+        display: none;
+        padding: 0px 0 30px !important;
+    }
+
+    .pb-anchor {
+        padding: 0px 0px 30px;
+
+    }
+
+    .whatsappicon {
+        font-size: 30px;
+        background-color: #09ba09;
+        color: white;
+        padding-right: 10px;
+    }
+
+    .whatsapp-bg {
+        background-color: #5abb00;
+        padding: 9px 0px 9px;
+        width: 70%;
+        border-radius: 16px;
+        margin: 0px auto;
+    }
+
+    .wptext {
+        color: white;
+    }
+}
+
+
+/* wp button */
+
+.pb-anchor {
+    padding: 0px 0 30px;
+
+}
+
+.whatsappicon {
+    font-size: 30px;
+    background-color: #5abb00;
+    color: white;
+    padding-right: 10px;
+}
+
+.whatsapp-bg {
+    background-color: #5abb00;
+    padding: 9px 0px 9px;
+    width: 70%;
+    border-radius: 16px;
+    margin: 0px auto;
+}
+
+.wptext {
+    color: white;
 }
 
 /* card buttons */
@@ -545,6 +726,11 @@ strong {
 .card-booknow {
     height: 66px;
     border: #4a68b1 solid 2px;
+    padding: 23px 40px 23px 40px;
+}
+
+.card-booknow a {
+    padding: 23px 40px 23px 40px;
 }
 
 .card-booknow:hover {
@@ -642,3 +828,20 @@ strong {
     font-family: "DM Serif Text";
     color: white;
 }
+
+/* ----------------------------------- */
+/* .card-button{
+    display: block !important;
+}
+.wpbutton{
+    display: none !important;
+}
+
+@media (max-width:400px){
+    .card-button{
+        display: none !important;
+    }
+    .wpbutton{
+        display: block !important;
+    }
+} */

@@ -1,0 +1,71 @@
+.table {
+    padding: 0px 0px 0px 0px !important;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0rem 0rem !important;
+}
+
+.mydiv {
+    background-color: orange;
+    /* text-align: center; */
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* text-align: center; */
+
+}
+
+.graphborder {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#chart1,
+#chart,
+#chart2,
+#chart3,
+#chart4 {
+    width: 100% !important;
+    /* padding: 60px; */
+    margin: 0;
+}
+
+.map {
+    /* padding: 50px; */
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.table {
+    padding: 0px 0px 0px 0px !important;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0rem 0rem !important;
+}
+
+.page[size="A4"] {
+    width: 793.7px;
+    height: 1122.52px;
+    overflow: hidden;
+}
+
+.fs {
+    font-size: 8pt;
+}
+
+.page[size="A4"] {
+    width: 793.7px;
+    height: 1122.52px;
+    overflow: hidden;
+}
+
+.fs {
+    font-size: 8pt;
+}

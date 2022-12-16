@@ -36,26 +36,32 @@
 .page[size="A4"] {
     width: 793.7px;
     height: 1122.52px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
+
+/* @page {
+    size: 21cm 29.7cm;
+    margin: 30mm 45mm 30mm 45mm;
+} */
 
 .heading {
     font-size: 18px;
     font-weight: 200;
-}  
-  
-.detail {  
-    font-size: 14px;  
-}  
+}
 
-.table-recipient{
+.detail {
+    font-size: 14px;
+}
+
+.table-recipient {
     position: absolute;
-   top: 0;
-   right: 0;
+    top: 0;
+    right: 0;
 
 }
-.hr-tag{
-   
+
+.hr-tag {
+
     background-color: black;
 }
 

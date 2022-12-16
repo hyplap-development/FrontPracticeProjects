@@ -1,0 +1,53 @@
+.table {
+    padding: 0px 0px 0px 0px !important;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0rem 0rem !important;
+}
+
+.fs {
+    font-size: 8pt;
+}
+
+.bg-orange {
+    background-color: #ffc000 !important;
+}
+
+.heading-div {
+    width: 100%;
+
+
+}
+
+.bg-green {
+    background-color: rgb(60, 162, 60) !important;
+}
+
+.title {
+
+    padding-top: 6.25rem;
+}
+
+/* .border-color{
+    border: #ffc000 !important;
+    outline-color: #ffc000 !important;
+} */
+
+.page[size="A4"] {
+    width: 793.7px;
+    height: 1122.52px;
+    overflow: hidden;
+}
+
+.some {
+    height: 150px;
+}
+
+.bg-yellow {
+    background-color: #ffff00 !important;
+}
+
+.img {
+    text-align: center;
+}
