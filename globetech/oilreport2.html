@@ -11,23 +11,138 @@
     <!-- CSS only -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.36.3/apexcharts.min.css"
         integrity="sha512-tJYqW5NWrT0JEkWYxrI4IK2jvT7PAiOwElIGTjALSyr8ZrilUQf+gjw2z6woWGSZqeXASyBXUr+WbtqiQgxUYg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* .table>:not(caption)>*>* {
+                padding: .2rem .2rem !important;
+            } */
+
+        .fs-16px {
+            font-size: 16px !important;
+        }
+
+        .fs-11pt {
+            font-size: 11pt !important;
+        }
+
+
+        .ff-times_new_roman {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+
+
+        .bg-yellow {
+            background-color: #ffff00 !important;
+        }
+
+        .bg-orange {
+            background-color: #ffc000 !important;
+        }
+
+        .heading-div {
+            width: 100%;
+        }
+
+        .bg-green {
+            background-color: rgb(60, 162, 60) !important;
+        }
+
+        .title {
+            padding-top: 6.25rem;
+        }
+
+        .page[size="A4"] {
+            width: 793.7px;
+            height: 1122.52px;
+            margin: auto;
+        }
+
+        .fs-8pt {
+            font-size: 8pt !important;
+        }
+    </style>
 </head>
 
-<body class="fs">
-    <!-- <div class="my-5 page" size="A4"> -->
-    <div class="mydiv">
-        <h6 class="p-2 text-center">
-            PHISICO CHEMICAL PARAMETER
-        </h6>
-    </div>
+<body class="fs table my-5 page" size="A4" style="margin: auto;">
+    <table class="table  ">
+        <tr class="bg-orange">
+            <td class="border-end-0 border-color bg-orange" height="" colspan="6"><img src="/gts_diesel/gts_logo.png"
+                    width="100px" alt=""></td>
+            <td colspan="6" class="border-color border-start-0 bg-orange position-relative ">
+                <h4 class="position-absolute bottom-0 fs-16px ff-times_new_roman fw-bold">Oil & Wear Analysis Impression
+                </h4>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="3" class="text-center  border-dark fs-11pt ">USN:</th>
+            <th colspan="3" class="text-center border-dark fs-11pt">0</th>
+            <th colspan="3" class="text-center border-dark fs-11pt">SEVERITY</th>
+            <th colspan="3" class="text-center bg-green text-light border-dark fs-11pt">0</th>
+        </tr>
+        <tr>
+            <td colspan="3" class="fw-bold border-bottom-0">EQUIPMENT ID</td>
+            <td colspan="3" class="border-bottom-0">0</td>
+            <td colspan="3" class="fw-bold border-bottom-0 ">CUSTOMER NAME:</td>
+            <td colspan="3" class="border-bottom-0">0</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="fw-bold border-bottom-0">SITENAME:</td>
+            <td colspan="3" class="border-bottom-0">0</td>
+            <td colspan="3" class="fw-bold  border-bottom-0">SITE LOCATION:</td>
+            <td colspan="3" class="border-bottom-0">0</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="fw-bold border-bottom-0">EQUIPMENT NAME:</td>
+            <td colspan="3" class="border-bottom-0">0</td>
+            <td colspan="3" class="fw-bold border-bottom-0">COMPONENT:</td>
+            <td colspan="3" class="border-bottom-0">0</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="fw-bold border-bottom-0">GRADE OF OIL:</td>
+            <td colspan="3" class="border-bottom-0 bo">0</td>
+            <td colspan="3" class="fw-bold  border-bottom-0">REPORT DATE</td>
+            <td colspan="3" class="border-bottom-0">30-Jan-00</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="fw-bold border-bottom-0">OIL COMPANY:</td>
+            <td colspan="3" class="border-bottom-0">0</td>
+            <td colspan="3" class="fw-bold  border-bottom-0">SAMPLE DATE</td>
+            <td colspan="3" class="border-bottom-0">00-Jan-00</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="fw-bold">SUMP CAPACITY:</td>
+            <td colspan="3">0</td>
+            <td colspan="3" class="fw-bold ">HMR:</td>
+            <td colspan="3">0</td>
+        </tr>
+        <tr>
+            <td colspan="12" class="fw-bold ">REMARKS:</td>
+        </tr>
+    </table>
+    <table class="table table-bordered " style="padding: 0px !important;">
+        <tr>
+            <td colspan="12" class="text-center bg-orange">
+                <h6 class="ff-calibri">RECOMMENDATION</h6>
+            </td>
+        </tr>
+        <TR>
+            <td colspan="12" height="70px">&nbsp;</td>
+        </TR>
+        <tr>
+            <td colspan="12" class="text-center bg-orange">
+                <h6 class="ff-calibri">PHYSICO CHEMICAL PARAMETER</h6>
+            </td>
+        </tr>
+    </table>
     <div>
         <table class="table table-bordered" style="width:100%">
             <tr>
                 <th colspan="4" class="text-center">USN:</th>
-                <th class="bg-success text-center">GTS162039</th>
+                <th class="bg-green text-light text-center">0</th>
                 <th class="text-center">-----</th>
                 <th class="text-center">-----</th>
             </tr>
@@ -49,8 +164,8 @@
                 <td class="text-center">TOTAL ACID NUMBER</td>
                 <td class="text-center">ASTM D 664</td>
                 <td class="text-center">MgKOH/g</td>
-                <td class="text-center"> 1 </td>
-                <td class="text-center"> 0.55 </td>
+                <td class="text-center"> 0 </td>
+                <td class="text-center"> 0 </td>
                 <td class="text-center"> </td>
                 <td class="text-center"> </td>
             </tr>
@@ -58,17 +173,17 @@
                 <td class="text-center">VISCOSITY AT 40 DEG</td>
                 <td class="text-center">ASTM D 445</td>
                 <td class="text-center">cSt</td>
-                <td class="text-center">61.2-74.8</td>
-                <td class="text-center">72.99</td>
-                <td class="text-center"> --</td>
-                <td class="text-center"> -- </td>
+                <td class="text-center">0</td>
+                <td class="text-center">0</td>
+                <td class="text-center"> </td>
+                <td class="text-center"> </td>
             </tr>
             <tr>
                 <td class="text-center">MOISTURE</td>
                 <td class="text-center">ASTM D 1744</td>
                 <td class="text-center">ppm</td>
-                <td class="text-center">250</td>
-                <td class="text-center"> 152</td>
+                <td class="text-center">0</td>
+                <td class="text-center"> 0</td>
                 <td class="text-center"> </td>
                 <td class="text-center"> </td>
             </tr>
@@ -76,50 +191,44 @@
                 <td class="text-center">DIRECT READING FERROGRAPHY</td>
                 <td class="text-center">ASTM D7690</td>
                 <td class="text-center">DL/DS/ WPC</td>
-                <td class="text-center">25</td>
-                <td class="text-center">18 </td>
-                <td class="text-center"> --</td>
-                <td class="text-center"> --</td>
+                <td class="text-center">0</td>
+                <td class="text-center">0 </td>
+                <td class="text-center"></td>
+                <td class="text-center"></td>
             </tr>
             <tr>
                 <td class="text-center">PARTICLE COUNT NAS</td>
                 <td class="text-center">NAS 1638</td>
                 <td class="text-center"> </td>
-                <td class="text-center">7</td>
-                <td class="text-center"> 8 </td>
-                <td class="text-center"> --</td>
-                <td class="text-center">-- </td>
+                <td class="text-center">0</td>
+                <td class="text-center"> 0</td>
+                <td class="text-center"> </td>
+                <td class="text-center"></td>
             </tr>
             <tr>
                 <td class="text-center">PARTICLE COUNT ISO</td>
                 <td class="text-center">ISO 4406</td>
-                <td class="text-center">--</td>
-                <td class="text-center">-- </td>
-                <td class="text-center">19/17/14</td>
-                <td class="text-center"> --</td>
-                <td class="text-center"> --</td>
+                <td class="text-center"></td>
+                <td class="text-center"> </td>
+                <td class="text-center">0</td>
+                <td class="text-center"> </td>
+                <td class="text-center"> </td>
             </tr>
         </table>
-        <div class="map col-6" style="padding: 50px;">
-            <div class="col-6 chart-1 graphborder" id="chart3"></div>
-            <div class="col-6 chart-1 graphborder" id="chart4"></div>
-        </div>
-        <div class="map col-4">
-            <div class="col-4 chart-1 graphborder" id="chart"></div>
-            <div class="col-4 chart-1 graphborder" id="chart1"></div>
-            <div class="col-4 chart-1 graphborder" id="chart2"></div>
-        </div>
-        <!-- <div class="row div1">
-            <div class="col-4 div1">
-                <div class="chart-1" id="chart"></div>
+        <table>
+            <!-- <tr>
+                <div class="map col-4" style="padding: 50px;">
+                    <div class="col-6 chart-1 graphborder" id="chart3"></div>
+                    <div class="col-6 chart-1 graphborder" id="chart4"></div>
+                </div>
+            </tr>
+            <tr><div class="map col-4">
+                <div class="col-4 chart-1 graphborder" id="chart"></div>
+                <div class="col-4 chart-1 graphborder" id="chart1"></div>
+                <div class="col-4 chart-1 graphborder" id="chart2"></div>
             </div>
-            <div class="col-4 div1">
-                <div class="chart-1" id="chart1"></div>
-            </div>
-            <div class="col-4 div1">
-                <div class="chart-1" id="chart2"></div>
-            </div>
-        </div> -->
+        </tr> -->
+        </table>
         <table class="table table-bordered">
             <tr>
                 <td colspan="12">
@@ -138,7 +247,7 @@
             </tr>
         </table>
     </div>
-    <!-- </div> -->
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.36.3/apexcharts.min.js"
         integrity="sha512-sa449wQ9TM6SvZV7TK7Zx/SjVR6bc7lR8tRz1Ar4/R6X2jOLaFln/9C+6Ak2OkAKZ/xBAKJ94dQMeYa0JT1RLg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>

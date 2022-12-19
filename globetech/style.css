@@ -30,11 +30,6 @@
     align-items: center;
 }
 
-/* .border-color{
-    border: #ffc000 !important;
-    outline-color: #ffc000 !important;
-} */
-
 .page[size="A4"] {
     width: 793.7px;
     height: 1122.52px;
@@ -57,16 +52,4 @@
 
 .table>:not(caption)>*>* {
     padding: 0rem 0rem !important;
-}
-
-/* .content {
-    border: 1px solid black;
-    border-collapse: collapse;
-} */
-/* .border-table {
-    border: 1px solid black;
-} */
-.space {
-    padding-left: 50px;
-    padding-right: 50px;
 }
