@@ -1,55 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.fs {
-    font-size: 8pt;
-}
-
-.bg-orange {
-    background-color: #ffc000 !important;
-}
-
-.heading-div {
-    width: 100%;
-}
-
-.bg-green {
-    background-color: rgb(60, 162, 60) !important;
-}
-
-.title {
-
-    padding-top: 6.25rem;
-}
-
-.map img {
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-}
-
-.page[size="A4"] {
-    width: 793.7px;
-    height: 1122.52px;
-    margin: auto;
-    /* overflow: hidden; */
-}
 
 #chart1,
 #chart,
-#chart2 {
+#chart2,
+#chart3,
+#chart4 {
     width: 100% !important;
-    /* height: 100vh !important; */
     padding: 0;
     margin: 0;
-}
-
-.table {
-    padding: 0px 0px 0px 0px !important;
-}
-
-.table>:not(caption)>*>* {
-    padding: 0rem 0rem !important;
 }

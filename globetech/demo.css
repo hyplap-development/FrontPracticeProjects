@@ -64,7 +64,7 @@ td {
 .page[size="A4"] {
     width: 793.7px;
     height: 1122.52px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .fs {

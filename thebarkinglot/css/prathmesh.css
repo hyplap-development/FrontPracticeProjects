@@ -828,20 +828,3 @@ strong {
     font-family: "DM Serif Text";
     color: white;
 }
-
-/* ----------------------------------- */
-/* .card-button{
-    display: block !important;
-}
-.wpbutton{
-    display: none !important;
-}
-
-@media (max-width:400px){
-    .card-button{
-        display: none !important;
-    }
-    .wpbutton{
-        display: block !important;
-    }
-} */

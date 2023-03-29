@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oil report-1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- CSS only -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.36.3/apexcharts.min.css"
+        integrity="sha512-tJYqW5NWrT0JEkWYxrI4IK2jvT7PAiOwElIGTjALSyr8ZrilUQf+gjw2z6woWGSZqeXASyBXUr+WbtqiQgxUYg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .table>:not(caption)>*>* {
+            padding: .2rem .2rem !important;
+        }
+
+        .fs-16px {
+            font-size: 16px !important;
+        }
+
+        .fs-11pt {
+            font-size: 11pt !important;
+        }
+
+        .ff-times_new_roman {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .bg-yellow {
+            background-color: #ffff00 !important;
+        }
+
+        .bg-orange {
+            background-color: #ffc000 !important;
+        }
+
+        .heading-div {
+            width: 100%;
+        }
+
+        .bg-green {
+            background-color: rgb(60, 162, 60) !important;
+        }
+
+        .title {
+            padding-top: 6.25rem;
+        }
+
+        .page[size="A4"] {
+            width: 793.7px;
+            height: 1122.52px;
+
+        }
+
+        .fs-8pt {
+            font-size: 8pt !important;
+        }
+
+        #chart1,
+        #chart,
+        #chart2,
+        #chart3,
+        #chart4 {
+            width: 100% !important;
+            padding: 0;
+            margin: 0;
+        }
+
+        td,
+        th {
+            width: 99.2125px;
+        }
+    </style>
+</head>
+
+<body class="fs-8pt table my-5 page" size="A4" style="margin: auto;">
+    <table class="table table-bordered">
+        <thead>
+            <tr class="bg-orange">
+                <td colspan="4" class="border-0 border-color bg-orange">
+                    <img src="/gts_diesel/gts_logo.png" width="100px" alt="" />
+                </td>
+                <td colspan="4" class="border-0 border-color bg-orange">
+                    <h4 class="fs-16px ff-times_new_roman fw-bold">
+                        Oil & Wear Analysis Impression
+                    </h4>
+                </td>
+            </tr>
+            <tr class="text-center fs-11pt ff-times_new_roman">
+                <th colspan="2" style="width: 25%;">
+                    USN:
+                </th>
+                <th colspan="2" style="width: 25%;">
+                    0
+                </th>
+                <th colspan="2" style="width: 25%;">
+                    SEVERITY
+                </th>
+                <th colspan="2" class="bg-success text-light" style="width: 25%;">
+                    0
+                </th>
+            </tr>
+            <tr class="border-0">
+                <td colspan="8" class="fw-bold border-0">MATERIAL TESTED:</td>
+            </tr>
+            <tr class="border-0">
+                <td colspan="2" class="fw-bold border-0">CUSTOMER NAME:</td>
+                <td colspan="2" class="border-0">0</td>
+                <td colspan="2" class="fw-bold border-0">SITE NAME:</td>
+                <td colspan="2" class="border-0 ">0</td>
+            </tr>
+
+            <tr class="border-0">
+                <td colspan="2" class="fw-bold border-0 ">
+                    EQUIPMENT NAME:
+                </td>
+                <td colspan="2" class="border-0">0</td>
+
+                <td colspan="2" class="fw-bold border-0 ">
+                    SITE LOCATION:
+                </td>
+                <td colspan="2" class="border-0 ">0</td>
+            </tr>
+            <tr class="border-0">
+                <td colspan="2" class="fw-bold border-0 ">
+                    SAMPLE TYPE:
+                </td>
+                <td colspan="2" class="border-0">0</td>
+                <td colspan="2" class="fw-bold border-0">COMPONENT:</td>
+                <td colspan="2" class=" border-0">0</td>
+            </tr>
+            <tr class="border-0">
+                <td colspan="2" class="fw-bold border-0 ">
+                    FRESH/USED SAMPLE:
+                </td>
+                <td colspan="2" class="border-0">0</td>
+                <td colspan="2" class="fw-bold border-0">REPORT DATE</td>
+                <td colspan="2" class="border-0 ">0-Jan-00
+                </td>
+            </tr>
+            <tr class="border-0">
+                <td colspan="2" class="fw-bold border-0 ">
+                    SAMPLE TAKEN ON:
+                </td>
+                <td colspan="2" class="border-0">0</td>
+                <td colspan="2" class="fw-bold border-0">SAMPLE DATE</td>
+                <td colspan="2" class=" border-0">00-Jan-00
+                </td>
+            </tr>
+
+            <tr class="border-0">
+                <td colspan="8" class="fw-bold border-0">REMARKS:</td>
+            </tr>
+        </thead>
+        <!-- </table>
+    <table class="table table-bordered " style="padding: 0px !important;"> -->
+        <tr>
+            <td colspan="8" class="text-center bg-orange">
+                <h6 class="ff-calibri">RECOMMENDATION</h6>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="8" height="70px">
+                <span style="padding-left: 50%;"><b>0</b></span>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td colspan="8" class="text-center bg-orange">
+                <h6 class="ff-calibri">PHYSICO CHEMICAL PARAMETER</h6>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="5" class="fw-bold text-center">USN:</td>
+            <td class="bg-green text-light fw-bold text-center">0</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="5" class="text-center fw-bold">REPORT DATE</td>
+            <td class="text-center fw-bold">0-Jan-00</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="text-center fw-bold">TEST</td>
+            <td class="text-center fw-bold">ASTM</td>
+            <td class="text-center fw-bold">UNIT</td>
+            <td class="text-center fw-bold">LIMIT</td>
+            <td colspan="3" class="text-center fw-bold">RESULT</td>
+        </tr>
+        <tr style="height: 25px">
+            <td colspan="2" class="text-center">TOTAL ACID NUMBER</td>
+            <td class="text-center">ASTM D 664</td>
+            <td class="text-center">MgKOH/g</td>
+            <td class="text-center"> 0 </td>
+            <td class="text-center"> 0 </td>
+            <td class="text-center"> </td>
+            <td class="text-center"> </td>
+        </tr>
+        <tr style="height: 25px">
+            <td colspan="2" class="text-center">VISCOSITY AT 40 DEG</td>
+            <td class="text-center">ASTM D 445</td>
+            <td class="text-center">cSt</td>
+            <td class="text-center">0</td>
+            <td class="text-center">0</td>
+            <td class="text-center"> </td>
+            <td class="text-center"> </td>
+        </tr>
+        <tr style="height: 25px">
+            <td colspan="2" class="text-center">MOISTURE</td>
+            <td class="text-center">ASTM D 1744</td>
+            <td class="text-center">ppm</td>
+            <td class="text-center">0</td>
+            <td class="text-center"> 0</td>
+            <td class="text-center"> </td>
+            <td class="text-center"> </td>
+        </tr>
+        <tr style="height: 25px">
+            <td colspan="2" class="text-center">DIRECT READING FERROGRAPHY</td>
+            <td class="text-center">ASTM D7690</td>
+            <td class="text-center">DL/DS/ WPC</td>
+            <td class="text-center">0</td>
+            <td class="text-center">0 </td>
+            <td class="text-center"></td>
+            <td class="text-center"></td>
+        </tr>
+        <tr style="height: 25px">
+            <td colspan="2" class="text-center">PARTICLE COUNT NAS</td>
+            <td class="text-center">NAS 1638</td>
+            <td class="text-center"> </td>
+            <td class="text-center">0</td>
+            <td class="text-center"> 0</td>
+            <td class="text-center"> </td>
+            <td class="text-center"></td>
+        </tr>
+        <tr style="height: 25px">
+            <td colspan="2" class="text-center">PARTICLE COUNT ISO</td>
+            <td class="text-center">ISO 4406</td>
+            <td class="text-center"></td>
+            <td class="text-center"> </td>
+            <td class="text-center">0</td>
+            <td class="text-center"> </td>
+            <td class="text-center"> </td>
+        </tr>
+        <tr>
+            <td colspan="4" class="text-center">
+                <div class=" chart-1 graphborder" id="chart3"></div>
+            </td>
+            <td colspan="4" class="text-center">
+                <div class=" chart-1 graphborder" id="chart4"></div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" class="text-center">
+                <div class=" chart-1 graphborder" id="chart"></div>
+            </td>
+            <td colspan="2" class="text-center">
+                <div class=" chart-1 graphborder" id="chart1"></div>
+            </td>
+            <td colspan="3" class="text-center">
+                <div class=" chart-1 graphborder" id="chart2"></div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="8">
+                <ol>
+                    <span style="margin: 0; padding: 0;">REMARK</span>
+                    <li>The report shall not be replicated or duplicated in full form or in part without written
+                        confirmation from M/S Global Technical services.</li>
+                    <li>The report represents samples tested only as mentioned via sample ID</li>
+                    <li>All rights reserved @ Global Technical Services.</li>
+                </ol>
+            </td>
+        </tr>
+        <tr height="35px">
+            <td colspan="4">TESTED BY</td>
+            <td colspan="4">AUTHORIZED BY</td>
+        </tr>
+    </table>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.36.3/apexcharts.min.js"
+        integrity="sha512-sa449wQ9TM6SvZV7TK7Zx/SjVR6bc7lR8tRz1Ar4/R6X2jOLaFln/9C+6Ak2OkAKZ/xBAKJ94dQMeYa0JT1RLg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        var options = {
+            series: [{
+                name: 'Net Profit',
+                data: [44, 55, 57, 56, 61, 58, 63, 60, 66]
+            }, {
+                name: 'Revenue',
+                data: [76, 85, 101, 98, 87, 105, 91, 114, 94]
+            }, {
+                name: 'Free Cash Flow',
+                data: [35, 41, 36, 26, 45, 48, 52, 53, 41]
+            }],
+            chart: {
+                type: 'bar',
+                height: 250
+            },
+            plotOptions: {
+                bar: {
+                    horizontal: false,
+                    columnWidth: '55%',
+                    endingShape: 'rounded'
+                },
+            },
+            dataLabels: {
+                enabled: false
+            },
+            stroke: {
+                show: true,
+                width: 2,
+                colors: ['transparent']
+            },
+            xaxis: {
+                categories: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+            },
+            yaxis: {
+                title: {
+                    text: '$ (thousands)'
+                }
+            },
+            fill: {
+                opacity: 1
+            },
+            tooltip: {
+                y: {
+                    formatter: function (val) {
+                        return "$ " + val + " thousands"
+                    }
+                }
+            }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+        var chart1 = new ApexCharts(document.querySelector("#chart1"), options);
+        chart1.render();
+        var chart2 = new ApexCharts(document.querySelector("#chart2"), options);
+        chart2.render();
+        var chart3 = new ApexCharts(document.querySelector("#chart3"), options);
+        chart3.render();
+        var chart4 = new ApexCharts(document.querySelector("#chart4"), options);
+        chart4.render();
+    </script>
+</body>
+
+</html>

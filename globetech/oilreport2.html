@@ -5,20 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>oilreport-2</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <!-- CSS only -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="demo.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.36.3/apexcharts.min.css"
         integrity="sha512-tJYqW5NWrT0JEkWYxrI4IK2jvT7PAiOwElIGTjALSyr8ZrilUQf+gjw2z6woWGSZqeXASyBXUr+WbtqiQgxUYg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-        /* .table>:not(caption)>*>* {
-                padding: .2rem .2rem !important;
-            } */
+        .table>:not(caption)>*>* {
+            padding: .2rem .2rem !important;
+        }
 
         .fs-16px {
             font-size: 16px !important;
@@ -28,12 +24,9 @@
             font-size: 11pt !important;
         }
 
-
         .ff-times_new_roman {
             font-family: 'Times New Roman', Times, serif;
         }
-
-
 
         .bg-yellow {
             background-color: #ffff00 !important;
@@ -58,182 +51,370 @@
         .page[size="A4"] {
             width: 793.7px;
             height: 1122.52px;
-            margin: auto;
+
         }
 
         .fs-8pt {
             font-size: 8pt !important;
         }
+
+        #chart1,
+        #chart,
+        #chart2,
+        #chart3,
+        #chart4 {
+            width: 100% !important;
+            padding: 0;
+            margin: 0;
+        }
+
+        td,
+        th {
+            width: 99.2125px;
+        }
     </style>
 </head>
 
-<body class="fs table my-5 page" size="A4" style="margin: auto;">
-    <table class="table  ">
-        <tr class="bg-orange">
-            <td class="border-end-0 border-color bg-orange" height="" colspan="6"><img src="/gts_diesel/gts_logo.png"
-                    width="100px" alt=""></td>
-            <td colspan="6" class="border-color border-start-0 bg-orange position-relative ">
-                <h4 class="position-absolute bottom-0 fs-16px ff-times_new_roman fw-bold">Oil & Wear Analysis Impression
-                </h4>
-            </td>
-        </tr>
-        <tr>
-            <th colspan="3" class="text-center  border-dark fs-11pt ">USN:</th>
-            <th colspan="3" class="text-center border-dark fs-11pt">0</th>
-            <th colspan="3" class="text-center border-dark fs-11pt">SEVERITY</th>
-            <th colspan="3" class="text-center bg-green text-light border-dark fs-11pt">0</th>
-        </tr>
-        <tr>
-            <td colspan="3" class="fw-bold border-bottom-0">EQUIPMENT ID</td>
-            <td colspan="3" class="border-bottom-0">0</td>
-            <td colspan="3" class="fw-bold border-bottom-0 ">CUSTOMER NAME:</td>
-            <td colspan="3" class="border-bottom-0">0</td>
-        </tr>
-        <tr>
-            <td colspan="3" class="fw-bold border-bottom-0">SITENAME:</td>
-            <td colspan="3" class="border-bottom-0">0</td>
-            <td colspan="3" class="fw-bold  border-bottom-0">SITE LOCATION:</td>
-            <td colspan="3" class="border-bottom-0">0</td>
-        </tr>
-        <tr>
-            <td colspan="3" class="fw-bold border-bottom-0">EQUIPMENT NAME:</td>
-            <td colspan="3" class="border-bottom-0">0</td>
-            <td colspan="3" class="fw-bold border-bottom-0">COMPONENT:</td>
-            <td colspan="3" class="border-bottom-0">0</td>
-        </tr>
-        <tr>
-            <td colspan="3" class="fw-bold border-bottom-0">GRADE OF OIL:</td>
-            <td colspan="3" class="border-bottom-0 bo">0</td>
-            <td colspan="3" class="fw-bold  border-bottom-0">REPORT DATE</td>
-            <td colspan="3" class="border-bottom-0">30-Jan-00</td>
-        </tr>
-        <tr>
-            <td colspan="3" class="fw-bold border-bottom-0">OIL COMPANY:</td>
-            <td colspan="3" class="border-bottom-0">0</td>
-            <td colspan="3" class="fw-bold  border-bottom-0">SAMPLE DATE</td>
-            <td colspan="3" class="border-bottom-0">00-Jan-00</td>
-        </tr>
-        <tr>
-            <td colspan="3" class="fw-bold">SUMP CAPACITY:</td>
-            <td colspan="3">0</td>
-            <td colspan="3" class="fw-bold ">HMR:</td>
-            <td colspan="3">0</td>
-        </tr>
-        <tr>
-            <td colspan="12" class="fw-bold ">REMARKS:</td>
-        </tr>
-    </table>
-    <table class="table table-bordered " style="padding: 0px !important;">
-        <tr>
-            <td colspan="12" class="text-center bg-orange">
-                <h6 class="ff-calibri">RECOMMENDATION</h6>
-            </td>
-        </tr>
-        <TR>
-            <td colspan="12" height="70px">&nbsp;</td>
-        </TR>
-        <tr>
-            <td colspan="12" class="text-center bg-orange">
-                <h6 class="ff-calibri">PHYSICO CHEMICAL PARAMETER</h6>
-            </td>
-        </tr>
-    </table>
-    <div>
-        <table class="table table-bordered" style="width:100%">
-            <tr>
-                <th colspan="4" class="text-center">USN:</th>
-                <th class="bg-green text-light text-center">0</th>
-                <th class="text-center">-----</th>
-                <th class="text-center">-----</th>
+<body class="fs-8pt table my-5 page" size="A4" style="margin: auto;">
+    <table class="table table-bordered">
+        <thead>
+            <tr class="bg-orange">
+                <td colspan="4" class="border-0 border-color bg-orange">
+                    <img src="/gts_diesel/gts_logo.png" width="100px" alt="" />
+                </td>
+                <td colspan="4" class="border-0 border-color bg-orange">
+                    <h4 class="fs-16px ff-times_new_roman fw-bold">
+                        Oil & Wear Analysis Impression
+                    </h4>
+                </td>
             </tr>
-            <tr>
-                <th colspan="4" class="text-center">Report Date</th>
-                <th class="text-center">0-Jan-00</th>
-                <th class="text-center"></th>
-                <th class="text-center"></th>
+            <tr class="text-center fs-11pt ff-times_new_roman">
+                <th colspan="2" style="width: 25%;">
+                    USN:
+                </th>
+                <th colspan="2" style="width: 25%;">
+                    0
+                </th>
+                <th colspan="2" style="width: 25%;">
+                    SEVERITY
+                </th>
+                <th colspan="2" class="bg-success text-light" style="width: 25%;">
+                    0
+                </th>
+            </tr>
+            <tr class="border-0">
+                <td colspan="8" class="fw-bold border-0">MATERIAL TESTED:</td>
+            </tr>
+            <tr class="border-0">
+                <td colspan="2" class="fw-bold border-0">CUSTOMER NAME:</td>
+                <td colspan="2" class="border-0">0</td>
+                <td colspan="2" class="fw-bold border-0">SITE NAME:</td>
+                <td colspan="2" class="border-0 ">0</td>
+            </tr>
 
+            <tr class="border-0">
+                <td colspan="2" class="fw-bold border-0 ">
+                    EQUIPMENT NAME:
+                </td>
+                <td colspan="2" class="border-0">0</td>
+
+                <td colspan="2" class="fw-bold border-0 ">
+                    SITE LOCATION:
+                </td>
+                <td colspan="2" class="border-0 ">0</td>
             </tr>
-            <tr>
-                <th class="text-center">TEST</th>
-                <th class="text-center">ASTM</th>
-                <th class="text-center">LIMIT</th>
-                <th class="text-center">LIMIT</th>
-                <th colspan="3" class="text-center">RESULT</th>
+            <tr class="border-0">
+                <td colspan="2" class="fw-bold border-0 ">
+                    SAMPLE TYPE:
+                </td>
+                <td colspan="2" class="border-0">0</td>
+                <td colspan="2" class="fw-bold border-0">COMPONENT:</td>
+                <td colspan="2" class=" border-0">0</td>
             </tr>
-            <tr>
-                <td class="text-center">TOTAL ACID NUMBER</td>
-                <td class="text-center">ASTM D 664</td>
-                <td class="text-center">MgKOH/g</td>
-                <td class="text-center"> 0 </td>
-                <td class="text-center"> 0 </td>
-                <td class="text-center"> </td>
-                <td class="text-center"> </td>
+            <tr class="border-0">
+                <td colspan="2" class="fw-bold border-0 ">
+                    FRESH/USED SAMPLE:
+                </td>
+                <td colspan="2" class="border-0">0</td>
+                <td colspan="2" class="fw-bold border-0">REPORT DATE</td>
+                <td colspan="2" class="border-0 ">0-Jan-00
+                </td>
             </tr>
-            <tr>
-                <td class="text-center">VISCOSITY AT 40 DEG</td>
-                <td class="text-center">ASTM D 445</td>
-                <td class="text-center">cSt</td>
-                <td class="text-center">0</td>
-                <td class="text-center">0</td>
-                <td class="text-center"> </td>
-                <td class="text-center"> </td>
+            <tr class="border-0">
+                <td colspan="2" class="fw-bold border-0 ">
+                    SAMPLE TAKEN ON:
+                </td>
+                <td colspan="2" class="border-0">0</td>
+                <td colspan="2" class="fw-bold border-0">SAMPLE DATE</td>
+                <td colspan="2" class=" border-0">00-Jan-00
+                </td>
             </tr>
-            <tr>
-                <td class="text-center">MOISTURE</td>
-                <td class="text-center">ASTM D 1744</td>
-                <td class="text-center">ppm</td>
-                <td class="text-center">0</td>
-                <td class="text-center"> 0</td>
-                <td class="text-center"> </td>
-                <td class="text-center"> </td>
+
+            <tr class="border-0">
+                <td colspan="8" class="fw-bold border-0">REMARKS:</td>
             </tr>
-            <tr>
-                <td class="text-center">DIRECT READING FERROGRAPHY</td>
-                <td class="text-center">ASTM D7690</td>
-                <td class="text-center">DL/DS/ WPC</td>
-                <td class="text-center">0</td>
-                <td class="text-center">0 </td>
-                <td class="text-center"></td>
-                <td class="text-center"></td>
-            </tr>
-            <tr>
-                <td class="text-center">PARTICLE COUNT NAS</td>
-                <td class="text-center">NAS 1638</td>
-                <td class="text-center"> </td>
-                <td class="text-center">0</td>
-                <td class="text-center"> 0</td>
-                <td class="text-center"> </td>
-                <td class="text-center"></td>
-            </tr>
-            <tr>
-                <td class="text-center">PARTICLE COUNT ISO</td>
-                <td class="text-center">ISO 4406</td>
-                <td class="text-center"></td>
-                <td class="text-center"> </td>
-                <td class="text-center">0</td>
-                <td class="text-center"> </td>
-                <td class="text-center"> </td>
-            </tr>
-        </table>
-        <table>
-            <!-- <tr>
-                <div class="map col-4" style="padding: 50px;">
-                    <div class="col-6 chart-1 graphborder" id="chart3"></div>
-                    <div class="col-6 chart-1 graphborder" id="chart4"></div>
-                </div>
-            </tr>
-            <tr><div class="map col-4">
-                <div class="col-4 chart-1 graphborder" id="chart"></div>
-                <div class="col-4 chart-1 graphborder" id="chart1"></div>
-                <div class="col-4 chart-1 graphborder" id="chart2"></div>
-            </div>
-        </tr> -->
-        </table>
+        </thead>
+        <tr>
+            <td colspan="8" class="text-center bg-orange">
+                <h6 class="ff-calibri">WEAR METAL ANALYSIS</h6>
+            </td>
+        </tr>
+    </table>
+    <div class="row">
+        <div class="col-6">
+            <table class="table table-bordered">
+                <tr>
+                    <td colspan="2" class="text-center">USN:</td>
+                    <td class="text-center">GTS162039</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">REPORT DATE:
+                    </td>
+                    <td class="text-center">30-Sep-22
+                    </td>
+                    <td class="text-center">-----</td>
+                    <td class="text-center">-----</td>
+                </tr>
+                <tr>
+                    <td class="text-center">TEST
+                    </td>
+                    <td class="text-center">LIMIT
+                    </td>
+                    <td colspan="3" class="text-center">REPORT DATE:
+                    </td>
+                </tr>
+            </table>
+            <table class="table table-bordered">
+                <tr>
+                    <td colspan="6" class="text-center bg-orange ">
+                        <h6 class=" p-0 m-0">WEAR METALS (ppm)</h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">Iron (Fe)</td>
+                    <td class="text-center">45</td>
+                    <td class="text-center">B.D.L.</td>
+                    <td class="text-center">-----</td>
+                    <td class="text-center">-----</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">Chromium (Cr)
+                    </td>
+                    <td class="text-center">5</td>
+                    <td class="text-center">8.878
+                    </td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">Iron (Fe)</td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">B.D.L.</td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">Tin (Sn)
+                    </td>
+                    <td class="text-center">10</td>
+                    <td class="text-center">B.D.L.</td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">Aluminium (Al)
+                    </td>
+                    <td class="text-center">10</td>
+                    <td class="text-center">B.D.L.</td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">Nickel (Ni)
+                    </td>
+                    <td class="text-center">10</td>
+                    <td class="text-center">B.D.L.</td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">Manganese (Mn)
+                    </td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">B.D.L.</td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">Copper (Cu)
+                    </td>
+                    <td class="text-center">15</td>
+                    <td class="text-center">9.109</td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">Lead (Pb)
+                    </td>
+                    <td class="text-center">20</td>
+                    <td class="text-center">B.D.L.</td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">Silver (Ag)
+                    </td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">B.D.L.</td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">Vanadium (V)
+                    </td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">B.D.L.</td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">Titanium (Ti)
+
+                    </td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">B.D.L.</td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                </tr>
+            </table>
+            <table class="table table-bordered">
+                <tr>
+                    <td colspan="6" class="text-center bg-orange ">
+                        <h6 class=" p-0 m-0">CONTAMINATION(ppm)
+                        </h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">Silicon/Silica (Si)
+                    </td>
+                    <td class="text-center">20</td>
+                    <td class="text-center">B.D.L.</td>
+                    <td class="text-center">-----</td>
+                    <td class="text-center">-----</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">Potassium (K)
+                    </td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">B.D.L.</td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">Sodium (Na)
+                    </td>
+                    <td class="text-center">50</td>
+                    <td class="text-center">B.D.L.</td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                </tr>
+            </table>
+            <table class="table table-bordered">
+                <tr>
+                    <td colspan="6" class="text-center bg-orange ">
+                        <h6 class=" p-0 m-0">ADDITIVES(ppm)
+                        </h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">Calcium (Ca)
+                    </td>
+                    <td class="text-center">--</td>
+                    <td class="text-center">78.116</td>
+                    <td class="text-center">------</td>
+                    <td class="text-center">------</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">Magnesium (Mg)
+                    </td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">B.D.L.</td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">Cadmium (Cd)
+                    </td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">B.D.L.</td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">Boron (B)
+                    </td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">B.D.L.</td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">Zinc (Zn)
+                    </td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">335.147
+                    </td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">Phosphorus (P)
+                    </td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">397.022
+                    </td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">Barium (Ba)
+                    </td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">B.D.L.</td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">Molybdenum(Mo)
+                    </td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">B.D.L.</td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-center">Sulphur(S)
+                    </td>
+                    <td class="text-center">-</td>
+                    <td class="text-center">2077.64</td>
+                    </td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="map col-6  border-table">
+            <div class="chart-1" id="chart"></div>
+            <div class="chart-1" id="chart1"></div>
+            <div class="chart-1" id="chart2"></div>
+        </div>
         <table class="table table-bordered">
             <tr>
-                <td colspan="12">
+                <td colspan="8">
                     <ol>
-                        REMARK
+                        <span style="margin: 0; padding: 0;">REMARK</span>
                         <li>The report shall not be replicated or duplicated in full form or in part without written
                             confirmation from M/S Global Technical services.</li>
                         <li>The report represents samples tested only as mentioned via sample ID</li>
@@ -242,12 +423,11 @@
                 </td>
             </tr>
             <tr height="35px">
-                <td colspan="6">TESTED BY</td>
-                <td colspan="6">AUTHORIZED BY</td>
+                <td colspan="4">TESTED BY</td>
+                <td colspan="4">AUTHORIZED BY</td>
             </tr>
         </table>
     </div>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.36.3/apexcharts.min.js"
         integrity="sha512-sa449wQ9TM6SvZV7TK7Zx/SjVR6bc7lR8tRz1Ar4/R6X2jOLaFln/9C+6Ak2OkAKZ/xBAKJ94dQMeYa0JT1RLg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -308,10 +488,6 @@
         chart1.render();
         var chart2 = new ApexCharts(document.querySelector("#chart2"), options);
         chart2.render();
-        var chart3 = new ApexCharts(document.querySelector("#chart3"), options);
-        chart3.render();
-        var chart4 = new ApexCharts(document.querySelector("#chart4"), options);
-        chart4.render();
     </script>
 </body>
 
